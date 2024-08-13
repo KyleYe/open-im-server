@@ -99,9 +99,10 @@ jobs:
         uses: docker/metadata-action@v5.5.1
         with:
           images: |
-            openim/openim-server
-            ghcr.io/openimsdk/openim-server
-            registry.cn-hangzhou.aliyuncs.com/openimsdk/openim-server
+            kyleyhs/openim-server
+
+          # ghcr.io/openimsdk/openim-server
+          # registry.cn-hangzhou.aliyuncs.com/openimsdk/openim-server
 
           # generate Docker tags based on the following events/attributes
           tags: |
