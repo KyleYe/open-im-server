@@ -15,9 +15,9 @@
 package body
 
 import (
-	"github.com/openimsdk/tools/errs"
+	"github.com/KyleYe/open-im-tools/errs"
 
-	"github.com/openimsdk/protocol/constant"
+	"github.com/KyleYe/open-im-protocol/constant"
 )
 
 const (

@@ -17,24 +17,25 @@ package group
 import (
 	"context"
 	"fmt"
+
 	"github.com/KyleYe/open-im-server/v3/pkg/common/convert"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/database"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/versionctx"
 	"github.com/KyleYe/open-im-server/v3/pkg/rpcclient/notification"
 
+	"github.com/KyleYe/open-im-protocol/constant"
+	pbgroup "github.com/KyleYe/open-im-protocol/group"
+	"github.com/KyleYe/open-im-protocol/sdkws"
 	"github.com/KyleYe/open-im-server/v3/pkg/authverify"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/servererrs"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/controller"
 	"github.com/KyleYe/open-im-server/v3/pkg/rpcclient"
-	"github.com/openimsdk/protocol/constant"
-	pbgroup "github.com/openimsdk/protocol/group"
-	"github.com/openimsdk/protocol/sdkws"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
-	"github.com/openimsdk/tools/mcontext"
-	"github.com/openimsdk/tools/utils/datautil"
-	"github.com/openimsdk/tools/utils/stringutil"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/log"
+	"github.com/KyleYe/open-im-tools/mcontext"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
+	"github.com/KyleYe/open-im-tools/utils/stringutil"
 )
 
 // GroupApplicationReceiver

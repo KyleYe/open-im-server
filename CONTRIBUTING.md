@@ -85,10 +85,10 @@ Please refer to the following documents for detailed information on Go language 
 
 ### Logging Standards
 - **Do not use the standard `log` package**.
-- Use the `"github.com/openimsdk/tools/log"` package for logging, which supports multiple log levels: `debug`, `info`, `warn`, `error`.
+- Use the `"github.com/KyleYe/open-im-tools/log"` package for logging, which supports multiple log levels: `debug`, `info`, `warn`, `error`.
 - **Error logs should only be printed in the function where they are first actively called** to prevent log duplication and ensure clear error context.
 
 ### Exception and Error Handling
 - **Prohibit the use of `panic`**: The code should not use `panic` to avoid abrupt termination when encountering unrecoverable errors.
-- **Error Wrapping**: Use `"github.com/openimsdk/tools/errs"` to wrap errors, maintaining the integrity of error information and facilitating debugging.
+- **Error Wrapping**: Use `"github.com/KyleYe/open-im-tools/errs"` to wrap errors, maintaining the integrity of error information and facilitating debugging.
 - **Error Propagation**: If a function cannot handle an error itself, it should return the error to the caller, rather than hiding or ignoring it.

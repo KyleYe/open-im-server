@@ -15,10 +15,10 @@
 package api
 
 import (
+	"github.com/KyleYe/open-im-protocol/group"
 	"github.com/KyleYe/open-im-server/v3/pkg/rpcclient"
+	"github.com/KyleYe/open-im-tools/a2r"
 	"github.com/gin-gonic/gin"
-	"github.com/openimsdk/protocol/group"
-	"github.com/openimsdk/tools/a2r"
 )
 
 type GroupApi rpcclient.Group

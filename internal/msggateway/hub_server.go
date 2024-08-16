@@ -16,21 +16,22 @@ package msggateway
 
 import (
 	"context"
+	"sync/atomic"
+
+	"github.com/KyleYe/open-im-protocol/constant"
+	"github.com/KyleYe/open-im-protocol/msggateway"
+	"github.com/KyleYe/open-im-protocol/sdkws"
 	"github.com/KyleYe/open-im-server/v3/pkg/authverify"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/servererrs"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/startrpc"
 	"github.com/KyleYe/open-im-server/v3/pkg/rpcclient"
-	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/protocol/msggateway"
-	"github.com/openimsdk/protocol/sdkws"
-	"github.com/openimsdk/tools/discovery"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
-	"github.com/openimsdk/tools/mcontext"
-	"github.com/openimsdk/tools/mq/memamq"
-	"github.com/openimsdk/tools/utils/datautil"
+	"github.com/KyleYe/open-im-tools/discovery"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/log"
+	"github.com/KyleYe/open-im-tools/mcontext"
+	"github.com/KyleYe/open-im-tools/mq/memamq"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
 	"google.golang.org/grpc"
-	"sync/atomic"
 )
 
 func (s *Server) InitServer(ctx context.Context, config *Config, disCov discovery.SvcDiscoveryRegistry, server *grpc.Server) error {

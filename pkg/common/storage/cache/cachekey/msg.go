@@ -15,8 +15,9 @@
 package cachekey
 
 import (
-	"github.com/openimsdk/protocol/constant"
 	"strconv"
+
+	"github.com/KyleYe/open-im-protocol/constant"
 )
 
 const (

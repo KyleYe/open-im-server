@@ -16,14 +16,15 @@ package redis
 
 import (
 	"context"
+	"time"
+
+	"github.com/KyleYe/open-im-protocol/sdkws"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache/cachekey"
 	"github.com/KyleYe/open-im-server/v3/pkg/msgprocessor"
-	"github.com/openimsdk/protocol/sdkws"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/utils/datautil"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
 	"github.com/redis/go-redis/v9"
-	"time"
 ) //
 
 // msgCacheTimeout is  expiration time of message cache, 86400 seconds

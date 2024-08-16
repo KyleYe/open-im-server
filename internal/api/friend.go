@@ -17,9 +17,9 @@ package api
 import (
 	"github.com/gin-gonic/gin"
 
+	"github.com/KyleYe/open-im-protocol/relation"
 	"github.com/KyleYe/open-im-server/v3/pkg/rpcclient"
-	"github.com/openimsdk/protocol/relation"
-	"github.com/openimsdk/tools/a2r"
+	"github.com/KyleYe/open-im-tools/a2r"
 )
 
 type FriendApi rpcclient.Friend

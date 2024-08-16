@@ -20,8 +20,8 @@ import (
 
 	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
 	"github.com/KyleYe/open-im-server/v3/version"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/log"
 	"github.com/spf13/cobra"
 )
 

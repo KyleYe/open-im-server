@@ -15,8 +15,8 @@
 package callbackstruct
 
 import (
+	common "github.com/KyleYe/open-im-protocol/sdkws"
 	"github.com/KyleYe/open-im-server/v3/pkg/apistruct"
-	common "github.com/openimsdk/protocol/sdkws"
 )
 
 type CallbackCommand string

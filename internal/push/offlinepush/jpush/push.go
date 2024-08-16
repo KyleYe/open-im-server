@@ -18,11 +18,12 @@ import (
 	"context"
 	"encoding/base64"
 	"fmt"
+
 	"github.com/KyleYe/open-im-server/v3/internal/push/offlinepush/options"
 
 	"github.com/KyleYe/open-im-server/v3/internal/push/offlinepush/jpush/body"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
-	"github.com/openimsdk/tools/utils/httputil"
+	"github.com/KyleYe/open-im-tools/utils/httputil"
 )
 
 type JPush struct {

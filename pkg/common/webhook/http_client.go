@@ -17,15 +17,16 @@ package webhook
 import (
 	"context"
 	"encoding/json"
+	"net/http"
+
+	"github.com/KyleYe/open-im-protocol/constant"
 	"github.com/KyleYe/open-im-server/v3/pkg/callbackstruct"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/servererrs"
-	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/tools/log"
-	"github.com/openimsdk/tools/mcontext"
-	"github.com/openimsdk/tools/mq/memamq"
-	"github.com/openimsdk/tools/utils/httputil"
-	"net/http"
+	"github.com/KyleYe/open-im-tools/log"
+	"github.com/KyleYe/open-im-tools/mcontext"
+	"github.com/KyleYe/open-im-tools/mq/memamq"
+	"github.com/KyleYe/open-im-tools/utils/httputil"
 )
 
 type Client struct {

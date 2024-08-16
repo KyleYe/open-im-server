@@ -17,13 +17,13 @@ package msg
 import (
 	"context"
 
+	"github.com/KyleYe/open-im-protocol/constant"
+	"github.com/KyleYe/open-im-protocol/conversation"
+	"github.com/KyleYe/open-im-protocol/msg"
+	"github.com/KyleYe/open-im-protocol/sdkws"
 	"github.com/KyleYe/open-im-server/v3/pkg/authverify"
-	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/protocol/conversation"
-	"github.com/openimsdk/protocol/msg"
-	"github.com/openimsdk/protocol/sdkws"
-	"github.com/openimsdk/tools/log"
-	"github.com/openimsdk/tools/utils/timeutil"
+	"github.com/KyleYe/open-im-tools/log"
+	"github.com/KyleYe/open-im-tools/utils/timeutil"
 )
 
 func (m *msgServer) getMinSeqs(maxSeqs map[string]int64) map[string]int64 {

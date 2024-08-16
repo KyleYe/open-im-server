@@ -2,11 +2,12 @@ package msggateway
 
 import (
 	"context"
-	"github.com/openimsdk/protocol/sdkws"
-	"github.com/openimsdk/tools/log"
-	"github.com/openimsdk/tools/utils/datautil"
-	"google.golang.org/protobuf/proto"
 	"sync"
+
+	"github.com/KyleYe/open-im-protocol/sdkws"
+	"github.com/KyleYe/open-im-tools/log"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
+	"google.golang.org/protobuf/proto"
 )
 
 func (ws *WsServer) subscriberUserOnlineStatusChanges(ctx context.Context, userID string, platformIDs []int32) {

@@ -16,20 +16,21 @@ package relation
 
 import (
 	"context"
+
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/database"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/versionctx"
 
 	relationtb "github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
 
+	"github.com/KyleYe/open-im-protocol/constant"
+	"github.com/KyleYe/open-im-protocol/relation"
+	"github.com/KyleYe/open-im-protocol/sdkws"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/convert"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/controller"
 	"github.com/KyleYe/open-im-server/v3/pkg/rpcclient"
 	"github.com/KyleYe/open-im-server/v3/pkg/rpcclient/notification"
-	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/protocol/relation"
-	"github.com/openimsdk/protocol/sdkws"
-	"github.com/openimsdk/tools/mcontext"
+	"github.com/KyleYe/open-im-tools/mcontext"
 )
 
 type FriendNotificationSender struct {

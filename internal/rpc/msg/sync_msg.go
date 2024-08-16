@@ -16,16 +16,17 @@ package msg
 
 import (
 	"context"
-	"github.com/KyleYe/open-im-server/v3/pkg/util/conversationutil"
-	"github.com/openimsdk/tools/utils/datautil"
-	"github.com/openimsdk/tools/utils/timeutil"
 
+	"github.com/KyleYe/open-im-server/v3/pkg/util/conversationutil"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
+	"github.com/KyleYe/open-im-tools/utils/timeutil"
+
+	"github.com/KyleYe/open-im-protocol/constant"
+	"github.com/KyleYe/open-im-protocol/msg"
+	"github.com/KyleYe/open-im-protocol/sdkws"
 	"github.com/KyleYe/open-im-server/v3/pkg/authverify"
 	"github.com/KyleYe/open-im-server/v3/pkg/msgprocessor"
-	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/protocol/msg"
-	"github.com/openimsdk/protocol/sdkws"
-	"github.com/openimsdk/tools/log"
+	"github.com/KyleYe/open-im-tools/log"
 )
 
 func (m *msgServer) PullMessageBySeqs(ctx context.Context, req *sdkws.PullMessageBySeqsReq) (*sdkws.PullMessageBySeqsResp, error) {

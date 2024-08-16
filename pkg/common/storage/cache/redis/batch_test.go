@@ -2,11 +2,12 @@ package redis
 
 import (
 	"context"
+	"testing"
+
 	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/database/mgo"
-	"github.com/openimsdk/tools/db/mongoutil"
-	"github.com/openimsdk/tools/db/redisutil"
-	"testing"
+	"github.com/KyleYe/open-im-tools/db/mongoutil"
+	"github.com/KyleYe/open-im-tools/db/redisutil"
 )
 
 func TestName(t *testing.T) {

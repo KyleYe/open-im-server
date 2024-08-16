@@ -16,19 +16,20 @@ package api
 
 import (
 	"context"
-	"google.golang.org/grpc"
 	"math/rand"
 	"net/http"
 	"net/url"
 	"strconv"
 	"strings"
 
+	"google.golang.org/grpc"
+
+	"github.com/KyleYe/open-im-protocol/third"
 	"github.com/KyleYe/open-im-server/v3/pkg/rpcclient"
+	"github.com/KyleYe/open-im-tools/a2r"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/mcontext"
 	"github.com/gin-gonic/gin"
-	"github.com/openimsdk/protocol/third"
-	"github.com/openimsdk/tools/a2r"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/mcontext"
 )
 
 type ThirdApi rpcclient.Third

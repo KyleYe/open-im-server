@@ -20,10 +20,10 @@ import (
 
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
 
+	"github.com/KyleYe/open-im-protocol/relation"
 	"github.com/KyleYe/open-im-server/v3/pkg/authverify"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/convert"
-	"github.com/openimsdk/protocol/relation"
-	"github.com/openimsdk/tools/mcontext"
+	"github.com/KyleYe/open-im-tools/mcontext"
 )
 
 func (s *friendServer) GetPaginationBlacks(ctx context.Context, req *relation.GetPaginationBlacksReq) (resp *relation.GetPaginationBlacksResp, err error) {

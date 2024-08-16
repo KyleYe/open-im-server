@@ -16,13 +16,14 @@ package rpccache
 
 import (
 	"context"
+
+	"github.com/KyleYe/open-im-protocol/relation"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache/cachekey"
-	"github.com/openimsdk/protocol/relation"
 
 	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
 	"github.com/KyleYe/open-im-server/v3/pkg/localcache"
 	"github.com/KyleYe/open-im-server/v3/pkg/rpcclient"
-	"github.com/openimsdk/tools/log"
+	"github.com/KyleYe/open-im-tools/log"
 	"github.com/redis/go-redis/v9"
 )
 

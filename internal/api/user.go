@@ -15,15 +15,15 @@
 package api
 
 import (
+	"github.com/KyleYe/open-im-protocol/constant"
+	"github.com/KyleYe/open-im-protocol/msggateway"
+	"github.com/KyleYe/open-im-protocol/user"
 	"github.com/KyleYe/open-im-server/v3/pkg/rpcclient"
+	"github.com/KyleYe/open-im-tools/a2r"
+	"github.com/KyleYe/open-im-tools/apiresp"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/log"
 	"github.com/gin-gonic/gin"
-	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/protocol/msggateway"
-	"github.com/openimsdk/protocol/user"
-	"github.com/openimsdk/tools/a2r"
-	"github.com/openimsdk/tools/apiresp"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
 )
 
 type UserApi rpcclient.User

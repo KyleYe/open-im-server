@@ -16,16 +16,17 @@ package redis
 
 import (
 	"context"
+	"time"
+
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache/cachekey"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/database"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
+	"github.com/KyleYe/open-im-tools/s3"
+	"github.com/KyleYe/open-im-tools/s3/cont"
+	"github.com/KyleYe/open-im-tools/s3/minio"
 	"github.com/dtm-labs/rockscache"
-	"github.com/openimsdk/tools/s3"
-	"github.com/openimsdk/tools/s3/cont"
-	"github.com/openimsdk/tools/s3/minio"
 	"github.com/redis/go-redis/v9"
-	"time"
 )
 
 func NewObjectCacheRedis(rdb redis.UniversalClient, objDB database.ObjectInfo) cache.ObjectCache {

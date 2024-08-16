@@ -2,13 +2,14 @@ package redis
 
 import (
 	"context"
-	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache"
-	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache/cachekey"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
-	"github.com/redis/go-redis/v9"
 	"strconv"
 	"time"
+
+	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache/cachekey"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/log"
+	"github.com/redis/go-redis/v9"
 )
 
 func NewUserOnline(rdb redis.UniversalClient) cache.OnlineCache {

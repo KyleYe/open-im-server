@@ -19,7 +19,7 @@ import (
 	"time"
 
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
-	"github.com/openimsdk/tools/db/pagination"
+	"github.com/KyleYe/open-im-tools/db/pagination"
 )
 
 type ObjectInfo interface {

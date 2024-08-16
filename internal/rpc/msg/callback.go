@@ -16,15 +16,16 @@ package msg
 
 import (
 	"context"
+
 	"github.com/KyleYe/open-im-server/v3/pkg/common/webhook"
 
+	"github.com/KyleYe/open-im-protocol/constant"
+	pbchat "github.com/KyleYe/open-im-protocol/msg"
+	"github.com/KyleYe/open-im-protocol/sdkws"
 	cbapi "github.com/KyleYe/open-im-server/v3/pkg/callbackstruct"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
-	"github.com/openimsdk/protocol/constant"
-	pbchat "github.com/openimsdk/protocol/msg"
-	"github.com/openimsdk/protocol/sdkws"
-	"github.com/openimsdk/tools/mcontext"
-	"github.com/openimsdk/tools/utils/datautil"
+	"github.com/KyleYe/open-im-tools/mcontext"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
 	"google.golang.org/protobuf/proto"
 )
 

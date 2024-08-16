@@ -24,9 +24,9 @@ import (
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
 
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache"
-	"github.com/openimsdk/tools/db/pagination"
-	"github.com/openimsdk/tools/s3"
-	"github.com/openimsdk/tools/s3/cont"
+	"github.com/KyleYe/open-im-tools/db/pagination"
+	"github.com/KyleYe/open-im-tools/s3"
+	"github.com/KyleYe/open-im-tools/s3/cont"
 	"github.com/redis/go-redis/v9"
 )
 

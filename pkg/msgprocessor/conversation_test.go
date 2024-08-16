@@ -17,7 +17,7 @@ package msgprocessor
 import (
 	"testing"
 
-	"github.com/openimsdk/protocol/sdkws"
+	"github.com/KyleYe/open-im-protocol/sdkws"
 	"google.golang.org/protobuf/proto"
 )
 

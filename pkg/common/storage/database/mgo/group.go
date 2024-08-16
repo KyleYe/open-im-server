@@ -16,14 +16,15 @@ package mgo
 
 import (
 	"context"
-	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/database"
-	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
 	"time"
 
-	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/tools/db/mongoutil"
-	"github.com/openimsdk/tools/db/pagination"
-	"github.com/openimsdk/tools/errs"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/database"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
+
+	"github.com/KyleYe/open-im-protocol/constant"
+	"github.com/KyleYe/open-im-tools/db/mongoutil"
+	"github.com/KyleYe/open-im-tools/db/pagination"
+	"github.com/KyleYe/open-im-tools/errs"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"

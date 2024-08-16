@@ -16,10 +16,11 @@ package database
 
 import (
 	"context"
-	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
-	"github.com/openimsdk/protocol/user"
-	"github.com/openimsdk/tools/db/pagination"
 	"time"
+
+	"github.com/KyleYe/open-im-protocol/user"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
+	"github.com/KyleYe/open-im-tools/db/pagination"
 )
 
 type User interface {

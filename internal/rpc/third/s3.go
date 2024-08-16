@@ -27,16 +27,16 @@ import (
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
 	"go.mongodb.org/mongo-driver/mongo"
 
+	"github.com/KyleYe/open-im-protocol/sdkws"
+	"github.com/KyleYe/open-im-protocol/third"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/servererrs"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/log"
+	"github.com/KyleYe/open-im-tools/mcontext"
+	"github.com/KyleYe/open-im-tools/s3"
+	"github.com/KyleYe/open-im-tools/s3/cont"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
 	"github.com/google/uuid"
-	"github.com/openimsdk/protocol/sdkws"
-	"github.com/openimsdk/protocol/third"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
-	"github.com/openimsdk/tools/mcontext"
-	"github.com/openimsdk/tools/s3"
-	"github.com/openimsdk/tools/s3/cont"
-	"github.com/openimsdk/tools/utils/datautil"
 )
 
 func (t *thirdServer) PartLimit(ctx context.Context, req *third.PartLimitReq) (*third.PartLimitResp, error) {

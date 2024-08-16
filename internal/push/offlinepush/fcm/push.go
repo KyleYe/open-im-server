@@ -17,17 +17,18 @@ package fcm
 import (
 	"context"
 	"fmt"
-	"github.com/KyleYe/open-im-server/v3/internal/push/offlinepush/options"
-	"github.com/openimsdk/tools/utils/httputil"
 	"path/filepath"
 	"strings"
 
+	"github.com/KyleYe/open-im-server/v3/internal/push/offlinepush/options"
+	"github.com/KyleYe/open-im-tools/utils/httputil"
+
 	firebase "firebase.google.com/go"
 	"firebase.google.com/go/messaging"
+	"github.com/KyleYe/open-im-protocol/constant"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache"
-	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/tools/errs"
+	"github.com/KyleYe/open-im-tools/errs"
 	"github.com/redis/go-redis/v9"
 	"google.golang.org/api/option"
 )

@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
-	"github.com/openimsdk/tools/errs"
+	"github.com/KyleYe/open-im-tools/errs"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 

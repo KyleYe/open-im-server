@@ -20,8 +20,8 @@ import (
 	"os/exec"
 	"runtime"
 
+	"github.com/KyleYe/open-im-tools/utils/timeutil"
 	"github.com/fatih/color"
-	"github.com/openimsdk/tools/utils/timeutil"
 )
 
 func ExecuteCommand(cmdName string, args ...string) (string, error) {

@@ -18,12 +18,12 @@ import (
 	"context"
 
 	"github.com/IBM/sarama"
+	pbmsg "github.com/KyleYe/open-im-protocol/msg"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/prommetrics"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/controller"
-	pbmsg "github.com/openimsdk/protocol/msg"
-	"github.com/openimsdk/tools/log"
-	"github.com/openimsdk/tools/mq/kafka"
+	"github.com/KyleYe/open-im-tools/log"
+	"github.com/KyleYe/open-im-tools/mq/kafka"
 	"google.golang.org/protobuf/proto"
 )
 

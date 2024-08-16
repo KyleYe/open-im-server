@@ -14,7 +14,7 @@
 
 package servererrs
 
-import "github.com/openimsdk/tools/errs"
+import "github.com/KyleYe/open-im-tools/errs"
 
 var Relation = &relation{m: make(map[int]map[int]struct{})}
 

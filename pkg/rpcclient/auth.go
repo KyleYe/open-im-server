@@ -16,10 +16,11 @@ package rpcclient
 
 import (
 	"context"
-	"github.com/openimsdk/protocol/auth"
-	pbAuth "github.com/openimsdk/protocol/auth"
-	"github.com/openimsdk/tools/discovery"
-	"github.com/openimsdk/tools/system/program"
+
+	"github.com/KyleYe/open-im-protocol/auth"
+	pbAuth "github.com/KyleYe/open-im-protocol/auth"
+	"github.com/KyleYe/open-im-tools/discovery"
+	"github.com/KyleYe/open-im-tools/system/program"
 	"google.golang.org/grpc"
 )
 

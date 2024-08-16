@@ -18,15 +18,15 @@ import (
 	"context"
 	"sync"
 
+	"github.com/KyleYe/open-im-protocol/msg"
+	"github.com/KyleYe/open-im-protocol/push"
+	"github.com/KyleYe/open-im-protocol/sdkws"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
 	"github.com/KyleYe/open-im-server/v3/pkg/rpcclient"
+	"github.com/KyleYe/open-im-tools/discovery"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/utils/jsonutil"
 	"github.com/go-playground/validator/v10"
-	"github.com/openimsdk/protocol/msg"
-	"github.com/openimsdk/protocol/push"
-	"github.com/openimsdk/protocol/sdkws"
-	"github.com/openimsdk/tools/discovery"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/utils/jsonutil"
 	"google.golang.org/protobuf/proto"
 )
 

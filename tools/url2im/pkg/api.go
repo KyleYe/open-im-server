@@ -22,10 +22,10 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/openimsdk/protocol/auth"
-	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/protocol/third"
-	"github.com/openimsdk/tools/errs"
+	"github.com/KyleYe/open-im-protocol/auth"
+	"github.com/KyleYe/open-im-protocol/constant"
+	"github.com/KyleYe/open-im-protocol/third"
+	"github.com/KyleYe/open-im-tools/errs"
 )
 
 type Api struct {

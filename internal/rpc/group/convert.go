@@ -15,8 +15,8 @@
 package group
 
 import (
+	"github.com/KyleYe/open-im-protocol/sdkws"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
-	"github.com/openimsdk/protocol/sdkws"
 )
 
 func (s *groupServer) groupDB2PB(group *model.Group, ownerUserID string, memberCount uint32) *sdkws.GroupInfo {

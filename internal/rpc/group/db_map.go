@@ -18,9 +18,9 @@ import (
 	"context"
 	"time"
 
-	pbgroup "github.com/openimsdk/protocol/group"
-	"github.com/openimsdk/protocol/sdkws"
-	"github.com/openimsdk/tools/mcontext"
+	pbgroup "github.com/KyleYe/open-im-protocol/group"
+	"github.com/KyleYe/open-im-protocol/sdkws"
+	"github.com/KyleYe/open-im-tools/mcontext"
 )
 
 func UpdateGroupInfoMap(ctx context.Context, group *sdkws.GroupInfoForSet) map[string]any {

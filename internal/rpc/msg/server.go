@@ -17,21 +17,21 @@ package msg
 import (
 	"context"
 
+	"github.com/KyleYe/open-im-protocol/sdkws"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache/redis"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/database/mgo"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/webhook"
-	"github.com/openimsdk/protocol/sdkws"
-	"github.com/openimsdk/tools/db/mongoutil"
-	"github.com/openimsdk/tools/db/redisutil"
+	"github.com/KyleYe/open-im-tools/db/mongoutil"
+	"github.com/KyleYe/open-im-tools/db/redisutil"
 
+	"github.com/KyleYe/open-im-protocol/constant"
+	"github.com/KyleYe/open-im-protocol/conversation"
+	"github.com/KyleYe/open-im-protocol/msg"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/controller"
 	"github.com/KyleYe/open-im-server/v3/pkg/rpccache"
 	"github.com/KyleYe/open-im-server/v3/pkg/rpcclient"
-	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/protocol/conversation"
-	"github.com/openimsdk/protocol/msg"
-	"github.com/openimsdk/tools/discovery"
+	"github.com/KyleYe/open-im-tools/discovery"
 	"google.golang.org/grpc"
 )
 

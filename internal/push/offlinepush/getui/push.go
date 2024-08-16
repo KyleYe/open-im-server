@@ -18,18 +18,19 @@ import (
 	"context"
 	"crypto/sha256"
 	"encoding/hex"
-	"github.com/KyleYe/open-im-server/v3/internal/push/offlinepush/options"
 	"strconv"
 	"sync"
 	"time"
 
+	"github.com/KyleYe/open-im-server/v3/internal/push/offlinepush/options"
+
 	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
-	"github.com/openimsdk/tools/mcontext"
-	"github.com/openimsdk/tools/utils/httputil"
-	"github.com/openimsdk/tools/utils/splitter"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/log"
+	"github.com/KyleYe/open-im-tools/mcontext"
+	"github.com/KyleYe/open-im-tools/utils/httputil"
+	"github.com/KyleYe/open-im-tools/utils/splitter"
 	"github.com/redis/go-redis/v9"
 )
 

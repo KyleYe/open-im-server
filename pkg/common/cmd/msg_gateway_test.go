@@ -15,13 +15,14 @@
 package cmd
 
 import (
-	"github.com/openimsdk/protocol/auth"
-	"github.com/openimsdk/tools/apiresp"
-	"github.com/openimsdk/tools/utils/jsonutil"
-	"github.com/stretchr/testify/mock"
-	"go.mongodb.org/mongo-driver/bson/primitive"
 	"math"
 	"testing"
+
+	"github.com/KyleYe/open-im-protocol/auth"
+	"github.com/KyleYe/open-im-tools/apiresp"
+	"github.com/KyleYe/open-im-tools/utils/jsonutil"
+	"github.com/stretchr/testify/mock"
+	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 
 // MockRootCmd is a mock type for the RootCmd type

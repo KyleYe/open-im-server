@@ -16,10 +16,11 @@ package msg
 
 import (
 	"context"
-	"github.com/openimsdk/tools/errs"
+
+	"github.com/KyleYe/open-im-tools/errs"
 	"github.com/redis/go-redis/v9"
 
-	pbmsg "github.com/openimsdk/protocol/msg"
+	pbmsg "github.com/KyleYe/open-im-protocol/msg"
 )
 
 func (m *msgServer) GetConversationMaxSeq(ctx context.Context, req *pbmsg.GetConversationMaxSeqReq) (*pbmsg.GetConversationMaxSeqResp, error) {

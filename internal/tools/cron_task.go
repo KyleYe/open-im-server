@@ -20,19 +20,19 @@ import (
 	"os"
 	"time"
 
+	pbconversation "github.com/KyleYe/open-im-protocol/conversation"
+	"github.com/KyleYe/open-im-protocol/msg"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
 	kdisc "github.com/KyleYe/open-im-server/v3/pkg/common/discoveryregister"
-	pbconversation "github.com/openimsdk/protocol/conversation"
-	"github.com/openimsdk/protocol/msg"
 
-	"github.com/openimsdk/protocol/third"
-	"github.com/openimsdk/tools/mcontext"
-	"github.com/openimsdk/tools/mw"
+	"github.com/KyleYe/open-im-protocol/third"
+	"github.com/KyleYe/open-im-tools/mcontext"
+	"github.com/KyleYe/open-im-tools/mw"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/log"
 	"github.com/robfig/cron/v3"
 )
 

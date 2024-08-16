@@ -3,9 +3,10 @@ package model
 import (
 	"context"
 	"errors"
-	"github.com/openimsdk/tools/log"
-	"go.mongodb.org/mongo-driver/bson/primitive"
 	"time"
+
+	"github.com/KyleYe/open-im-tools/log"
+	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 
 const (

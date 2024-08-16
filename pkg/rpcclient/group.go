@@ -18,13 +18,13 @@ import (
 	"context"
 	"strings"
 
+	"github.com/KyleYe/open-im-protocol/constant"
+	"github.com/KyleYe/open-im-protocol/group"
+	"github.com/KyleYe/open-im-protocol/sdkws"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/servererrs"
-	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/protocol/group"
-	"github.com/openimsdk/protocol/sdkws"
-	"github.com/openimsdk/tools/discovery"
-	"github.com/openimsdk/tools/system/program"
-	"github.com/openimsdk/tools/utils/datautil"
+	"github.com/KyleYe/open-im-tools/discovery"
+	"github.com/KyleYe/open-im-tools/system/program"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
 )
 
 type Group struct {

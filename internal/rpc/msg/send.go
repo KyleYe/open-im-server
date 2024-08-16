@@ -17,19 +17,19 @@ package msg
 import (
 	"context"
 
+	"github.com/KyleYe/open-im-protocol/constant"
+	pbconversation "github.com/KyleYe/open-im-protocol/conversation"
+	pbmsg "github.com/KyleYe/open-im-protocol/msg"
+	"github.com/KyleYe/open-im-protocol/sdkws"
+	"github.com/KyleYe/open-im-protocol/wrapperspb"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/prommetrics"
 	"github.com/KyleYe/open-im-server/v3/pkg/msgprocessor"
 	"github.com/KyleYe/open-im-server/v3/pkg/util/conversationutil"
-	"github.com/openimsdk/protocol/constant"
-	pbconversation "github.com/openimsdk/protocol/conversation"
-	pbmsg "github.com/openimsdk/protocol/msg"
-	"github.com/openimsdk/protocol/sdkws"
-	"github.com/openimsdk/protocol/wrapperspb"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
-	"github.com/openimsdk/tools/mcontext"
-	"github.com/openimsdk/tools/utils/datautil"
-	"github.com/openimsdk/tools/utils/stringutil"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/log"
+	"github.com/KyleYe/open-im-tools/mcontext"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
+	"github.com/KyleYe/open-im-tools/utils/stringutil"
 )
 
 func (m *msgServer) SendMsg(ctx context.Context, req *pbmsg.SendMsgReq) (*pbmsg.SendMsgResp, error) {

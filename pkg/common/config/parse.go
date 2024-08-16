@@ -18,10 +18,10 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/KyleYe/open-im-protocol/constant"
 	"github.com/KyleYe/open-im-server/v3/pkg/msgprocessor"
-	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/field"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/field"
 	"gopkg.in/yaml.v3"
 )
 

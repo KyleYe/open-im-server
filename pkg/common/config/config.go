@@ -18,13 +18,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openimsdk/tools/db/mongoutil"
-	"github.com/openimsdk/tools/db/redisutil"
-	"github.com/openimsdk/tools/mq/kafka"
-	"github.com/openimsdk/tools/s3/cos"
-	"github.com/openimsdk/tools/s3/kodo"
-	"github.com/openimsdk/tools/s3/minio"
-	"github.com/openimsdk/tools/s3/oss"
+	"github.com/KyleYe/open-im-tools/db/mongoutil"
+	"github.com/KyleYe/open-im-tools/db/redisutil"
+	"github.com/KyleYe/open-im-tools/mq/kafka"
+	"github.com/KyleYe/open-im-tools/s3/cos"
+	"github.com/KyleYe/open-im-tools/s3/kodo"
+	"github.com/KyleYe/open-im-tools/s3/minio"
+	"github.com/KyleYe/open-im-tools/s3/oss"
 )
 
 type CacheConfig struct {

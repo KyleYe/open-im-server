@@ -17,19 +17,20 @@ package controller
 import (
 	"context"
 	"fmt"
+	"time"
+
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/database"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/database/mgo"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
-	"time"
 
+	"github.com/KyleYe/open-im-protocol/constant"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache"
-	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/tools/db/pagination"
-	"github.com/openimsdk/tools/db/tx"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
-	"github.com/openimsdk/tools/mcontext"
-	"github.com/openimsdk/tools/utils/datautil"
+	"github.com/KyleYe/open-im-tools/db/pagination"
+	"github.com/KyleYe/open-im-tools/db/tx"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/log"
+	"github.com/KyleYe/open-im-tools/mcontext"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
 )
 
 type FriendDatabase interface {

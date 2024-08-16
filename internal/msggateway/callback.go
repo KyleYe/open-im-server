@@ -18,10 +18,10 @@ import (
 	"context"
 	"time"
 
+	"github.com/KyleYe/open-im-protocol/constant"
 	cbapi "github.com/KyleYe/open-im-server/v3/pkg/callbackstruct"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
-	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/tools/mcontext"
+	"github.com/KyleYe/open-im-tools/mcontext"
 )
 
 func (ws *WsServer) webhookAfterUserOnline(ctx context.Context, after *config.AfterConfig, userID string, platformID int, isAppBackground bool, connID string) {

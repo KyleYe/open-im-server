@@ -3,9 +3,10 @@ package redis
 import (
 	"context"
 	"fmt"
+
 	"github.com/KyleYe/open-im-server/v3/pkg/common/servererrs"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/log"
 	"github.com/redis/go-redis/v9"
 )
 

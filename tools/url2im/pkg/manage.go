@@ -21,7 +21,6 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
-	"github.com/openimsdk/tools/errs"
 	"io"
 	"log"
 	"net/http"
@@ -34,7 +33,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/openimsdk/protocol/third"
+	"github.com/KyleYe/open-im-tools/errs"
+
+	"github.com/KyleYe/open-im-protocol/third"
 )
 
 type Upload struct {

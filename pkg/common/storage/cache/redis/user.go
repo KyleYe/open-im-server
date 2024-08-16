@@ -16,15 +16,16 @@ package redis
 
 import (
 	"context"
+	"time"
+
 	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache/cachekey"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/database"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
+	"github.com/KyleYe/open-im-tools/log"
 	"github.com/dtm-labs/rockscache"
-	"github.com/openimsdk/tools/log"
 	"github.com/redis/go-redis/v9"
-	"time"
 )
 
 const (

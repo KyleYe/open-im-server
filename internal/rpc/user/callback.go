@@ -16,12 +16,13 @@ package user
 
 import (
 	"context"
-	"github.com/KyleYe/open-im-server/v3/pkg/common/webhook"
-	"github.com/openimsdk/tools/utils/datautil"
 
+	"github.com/KyleYe/open-im-server/v3/pkg/common/webhook"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
+
+	pbuser "github.com/KyleYe/open-im-protocol/user"
 	cbapi "github.com/KyleYe/open-im-server/v3/pkg/callbackstruct"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
-	pbuser "github.com/openimsdk/protocol/user"
 )
 
 func (s *userServer) webhookBeforeUpdateUserInfo(ctx context.Context, before *config.BeforeConfig, req *pbuser.UpdateUserInfoReq) error {

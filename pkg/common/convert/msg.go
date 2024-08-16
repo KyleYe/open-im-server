@@ -15,9 +15,9 @@
 package convert
 
 import (
+	"github.com/KyleYe/open-im-protocol/constant"
+	"github.com/KyleYe/open-im-protocol/sdkws"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
-	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/protocol/sdkws"
 )
 
 func MsgPb2DB(msg *sdkws.MsgData) *model.MsgDataModel {

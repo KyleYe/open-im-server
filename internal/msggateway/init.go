@@ -16,13 +16,14 @@ package msggateway
 
 import (
 	"context"
-	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
-	"github.com/KyleYe/open-im-server/v3/pkg/rpccache"
-	"github.com/openimsdk/tools/db/redisutil"
-	"github.com/openimsdk/tools/utils/datautil"
 	"time"
 
-	"github.com/openimsdk/tools/log"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
+	"github.com/KyleYe/open-im-server/v3/pkg/rpccache"
+	"github.com/KyleYe/open-im-tools/db/redisutil"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
+
+	"github.com/KyleYe/open-im-tools/log"
 )
 
 type Config struct {

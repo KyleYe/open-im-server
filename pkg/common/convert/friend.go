@@ -17,11 +17,12 @@ package convert
 import (
 	"context"
 	"fmt"
+
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
 
-	"github.com/openimsdk/protocol/sdkws"
-	"github.com/openimsdk/tools/utils/datautil"
-	"github.com/openimsdk/tools/utils/timeutil"
+	"github.com/KyleYe/open-im-protocol/sdkws"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
+	"github.com/KyleYe/open-im-tools/utils/timeutil"
 )
 
 func FriendPb2DB(friend *sdkws.FriendInfo) *model.Friend {

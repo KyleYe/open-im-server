@@ -16,12 +16,13 @@ package redis
 
 import (
 	"context"
+	"time"
+
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache/cachekey"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/utils/stringutil"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/utils/stringutil"
 	"github.com/redis/go-redis/v9"
-	"time"
 )
 
 type tokenCache struct {

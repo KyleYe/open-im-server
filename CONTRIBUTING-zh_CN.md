@@ -87,10 +87,10 @@ I have read the CLA Document and I hereby sign the CLA
 
 ### 日志规范
 - **禁止使用标准的 `log` 包**。
-- 应使用 `"github.com/openimsdk/tools/log"` 包来打印日志，该包支持多种日志级别：`debug`、`info`、`warn`、`error`。
+- 应使用 `"github.com/KyleYe/open-im-tools/log"` 包来打印日志，该包支持多种日志级别：`debug`、`info`、`warn`、`error`。
 - **错误日志应仅在首次调用的函数中打印**，以防止日志重复，并确保错误的上下文清晰。
 
 ### 异常及错误处理
 - **禁止使用 `panic`**：程序中不应使用 `panic`，以避免在遇到不可恢复的错误时突然终止。
-- **错误包裹**：使用 `"github.com/openimsdk/tools/errs"` 来包裹错误，保持错误信息的完整性并增加调试便利。
+- **错误包裹**：使用 `"github.com/KyleYe/open-im-tools/errs"` 来包裹错误，保持错误信息的完整性并增加调试便利。
 - **错误传递**：如果函数本身不能处理错误，应将错误返回给调用者，而不是隐藏或忽略这些错误。

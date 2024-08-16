@@ -16,10 +16,11 @@ package database
 
 import (
 	"context"
-	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
-	"github.com/openimsdk/protocol/msg"
-	"go.mongodb.org/mongo-driver/mongo"
 	"time"
+
+	"github.com/KyleYe/open-im-protocol/msg"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
+	"go.mongodb.org/mongo-driver/mongo"
 )
 
 type Msg interface {

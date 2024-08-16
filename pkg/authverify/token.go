@@ -19,9 +19,9 @@ import (
 	"fmt"
 
 	"github.com/KyleYe/open-im-server/v3/pkg/common/servererrs"
+	"github.com/KyleYe/open-im-tools/mcontext"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/openimsdk/tools/mcontext"
-	"github.com/openimsdk/tools/utils/datautil"
 )
 
 func Secret(secret string) jwt.Keyfunc {

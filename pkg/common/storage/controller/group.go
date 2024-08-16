@@ -24,12 +24,12 @@ import (
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/database"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
 
+	"github.com/KyleYe/open-im-protocol/constant"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache"
-	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/tools/db/pagination"
-	"github.com/openimsdk/tools/db/tx"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/utils/datautil"
+	"github.com/KyleYe/open-im-tools/db/pagination"
+	"github.com/KyleYe/open-im-tools/db/tx"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
 	"github.com/redis/go-redis/v9"
 )
 

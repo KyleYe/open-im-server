@@ -2,8 +2,9 @@ package user
 
 import (
 	"context"
-	"github.com/openimsdk/protocol/constant"
-	pbuser "github.com/openimsdk/protocol/user"
+
+	"github.com/KyleYe/open-im-protocol/constant"
+	pbuser "github.com/KyleYe/open-im-protocol/user"
 )
 
 func (s *userServer) getUserOnlineStatus(ctx context.Context, userID string) (*pbuser.OnlineStatus, error) {

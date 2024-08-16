@@ -3,16 +3,16 @@ package group
 import (
 	"context"
 
+	"github.com/KyleYe/open-im-protocol/constant"
+	pbgroup "github.com/KyleYe/open-im-protocol/group"
+	"github.com/KyleYe/open-im-protocol/sdkws"
 	"github.com/KyleYe/open-im-server/v3/internal/rpc/incrversion"
 	"github.com/KyleYe/open-im-server/v3/pkg/authverify"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/servererrs"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
 	"github.com/KyleYe/open-im-server/v3/pkg/util/hashutil"
-	"github.com/openimsdk/protocol/constant"
-	pbgroup "github.com/openimsdk/protocol/group"
-	"github.com/openimsdk/protocol/sdkws"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/log"
 )
 
 func (s *groupServer) GetFullGroupMemberUserIDs(ctx context.Context, req *pbgroup.GetFullGroupMemberUserIDsReq) (*pbgroup.GetFullGroupMemberUserIDsResp, error) {

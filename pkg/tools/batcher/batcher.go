@@ -3,11 +3,12 @@ package batcher
 import (
 	"context"
 	"fmt"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/utils/idutil"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/utils/idutil"
 )
 
 var (

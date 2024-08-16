@@ -2,13 +2,14 @@ package push
 
 import (
 	"context"
+
+	pbpush "github.com/KyleYe/open-im-protocol/push"
 	"github.com/KyleYe/open-im-server/v3/internal/push/offlinepush"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache/redis"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/controller"
-	pbpush "github.com/openimsdk/protocol/push"
-	"github.com/openimsdk/tools/db/redisutil"
-	"github.com/openimsdk/tools/discovery"
+	"github.com/KyleYe/open-im-tools/db/redisutil"
+	"github.com/KyleYe/open-im-tools/discovery"
 	"google.golang.org/grpc"
 )
 

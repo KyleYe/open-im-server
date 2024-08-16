@@ -17,9 +17,6 @@ package api
 import (
 	"context"
 	"fmt"
-	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
-	"github.com/openimsdk/tools/utils/datautil"
-	"github.com/openimsdk/tools/utils/network"
 	"net"
 	"net/http"
 	"os"
@@ -28,12 +25,16 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
+	"github.com/KyleYe/open-im-tools/utils/network"
+
 	kdisc "github.com/KyleYe/open-im-server/v3/pkg/common/discoveryregister"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/prommetrics"
-	"github.com/openimsdk/tools/discovery"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
-	"github.com/openimsdk/tools/system/program"
+	"github.com/KyleYe/open-im-tools/discovery"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/log"
+	"github.com/KyleYe/open-im-tools/system/program"
 )
 
 type Config struct {

@@ -16,13 +16,14 @@ package user
 
 import (
 	"context"
+
 	relationtb "github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
 	"github.com/KyleYe/open-im-server/v3/pkg/rpcclient/notification"
 
+	"github.com/KyleYe/open-im-protocol/constant"
+	"github.com/KyleYe/open-im-protocol/sdkws"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/controller"
 	"github.com/KyleYe/open-im-server/v3/pkg/rpcclient"
-	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/protocol/sdkws"
 )
 
 type UserNotificationSender struct {

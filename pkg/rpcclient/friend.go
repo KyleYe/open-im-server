@@ -17,10 +17,10 @@ package rpcclient
 import (
 	"context"
 
-	"github.com/openimsdk/protocol/relation"
-	sdkws "github.com/openimsdk/protocol/sdkws"
-	"github.com/openimsdk/tools/discovery"
-	"github.com/openimsdk/tools/system/program"
+	"github.com/KyleYe/open-im-protocol/relation"
+	sdkws "github.com/KyleYe/open-im-protocol/sdkws"
+	"github.com/KyleYe/open-im-tools/discovery"
+	"github.com/KyleYe/open-im-tools/system/program"
 	"google.golang.org/grpc"
 )
 

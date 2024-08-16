@@ -20,7 +20,7 @@ import (
 	"github.com/KyleYe/open-im-server/v3/internal/msggateway"
 	"github.com/KyleYe/open-im-server/v3/version"
 
-	"github.com/openimsdk/tools/system/program"
+	"github.com/KyleYe/open-im-tools/system/program"
 	"github.com/spf13/cobra"
 )
 

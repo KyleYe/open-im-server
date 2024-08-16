@@ -18,7 +18,7 @@ import (
 	"context"
 
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
-	"github.com/openimsdk/tools/db/pagination"
+	"github.com/KyleYe/open-im-tools/db/pagination"
 )
 
 // Friend defines the operations for managing friends in MongoDB.

@@ -4,15 +4,16 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"time"
+
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache/cachekey"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/database"
 	"github.com/KyleYe/open-im-server/v3/pkg/msgprocessor"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/log"
 	"github.com/dtm-labs/rockscache"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
 	"github.com/redis/go-redis/v9"
-	"time"
 )
 
 func NewSeqConversationCacheRedis(rdb redis.UniversalClient, mgo database.SeqConversation) cache.SeqConversationCache {

@@ -17,7 +17,7 @@ package relation
 import (
 	"context"
 
-	"github.com/openimsdk/tools/mq/memamq"
+	"github.com/KyleYe/open-im-tools/mq/memamq"
 
 	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache/redis"
@@ -25,20 +25,20 @@ import (
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/webhook"
 	"github.com/KyleYe/open-im-server/v3/pkg/localcache"
-	"github.com/openimsdk/tools/db/redisutil"
+	"github.com/KyleYe/open-im-tools/db/redisutil"
 
+	"github.com/KyleYe/open-im-protocol/constant"
+	"github.com/KyleYe/open-im-protocol/relation"
+	"github.com/KyleYe/open-im-protocol/sdkws"
 	"github.com/KyleYe/open-im-server/v3/pkg/authverify"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/convert"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/servererrs"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/controller"
 	"github.com/KyleYe/open-im-server/v3/pkg/rpcclient"
-	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/protocol/relation"
-	"github.com/openimsdk/protocol/sdkws"
-	"github.com/openimsdk/tools/db/mongoutil"
-	"github.com/openimsdk/tools/discovery"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/utils/datautil"
+	"github.com/KyleYe/open-im-tools/db/mongoutil"
+	"github.com/KyleYe/open-im-tools/discovery"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
 	"google.golang.org/grpc"
 )
 

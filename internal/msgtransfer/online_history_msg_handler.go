@@ -16,24 +16,25 @@ package msgtransfer
 
 import (
 	"context"
+	"strconv"
+	"strings"
+	"time"
+
 	"github.com/IBM/sarama"
+	"github.com/KyleYe/open-im-protocol/constant"
+	"github.com/KyleYe/open-im-protocol/sdkws"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/controller"
 	"github.com/KyleYe/open-im-server/v3/pkg/msgprocessor"
 	"github.com/KyleYe/open-im-server/v3/pkg/rpcclient"
 	"github.com/KyleYe/open-im-server/v3/pkg/tools/batcher"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/log"
+	"github.com/KyleYe/open-im-tools/mcontext"
+	"github.com/KyleYe/open-im-tools/mq/kafka"
+	"github.com/KyleYe/open-im-tools/utils/stringutil"
 	"github.com/go-redis/redis"
-	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/protocol/sdkws"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
-	"github.com/openimsdk/tools/mcontext"
-	"github.com/openimsdk/tools/mq/kafka"
-	"github.com/openimsdk/tools/utils/stringutil"
 	"google.golang.org/protobuf/proto"
-	"strconv"
-	"strings"
-	"time"
 )
 
 const (
