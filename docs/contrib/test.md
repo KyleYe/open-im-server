@@ -2,9 +2,9 @@
 
 This document serves as a comprehensive guide to understanding and utilizing the `test.sh` script for testing OpenIM RPC services. The `test.sh` script is a collection of bash functions designed to test various aspects of the OpenIM RPC services, ensuring that each part of the API is functioning as expected.
 
-+ Scripts：https://github.com/openimsdk/open-im-server/tree/main/scripts/install/test.sh
++ Scripts：https://github.com/KyleYe/open-im-server/tree/main/scripts/install/test.sh
 
-For some complex, bulky functional tests, performance tests, and various e2e tests, We are all in the current warehouse to https://github.com/openimsdk/open-im-server/tree/main/test or https://github.com/openim-sigs/test-infra directory In the.
+For some complex, bulky functional tests, performance tests, and various e2e tests, We are all in the current warehouse to https://github.com/KyleYe/open-im-server/tree/main/test or https://github.com/openim-sigs/test-infra directory In the.
 
 + About OpenIM Feature [Test Docs](https://docs.google.com/spreadsheets/d/1zELWkwxgOOZ7u5pmYCqqaFnvZy2SVajv/edit?usp=sharing&ouid=103266350914914783293&rtpof=true&sd=true)
 

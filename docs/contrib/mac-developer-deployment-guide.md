@@ -49,7 +49,7 @@ Homebrew is an essential package manager for macOS. Install it using:
 
 `Devcontainers` provide a Docker-based isolated development environment. 
 
-Read [README.md](https://github.com/openimsdk/open-im-server/tree/main/.devcontainer) in the `.devcontainer` directory of the project to learn more about the devcontainer.
+Read [README.md](https://github.com/KyleYe/open-im-server/tree/main/.devcontainer) in the `.devcontainer` directory of the project to learn more about the devcontainer.
 
 To set it up:
 
@@ -90,7 +90,7 @@ To integrate the Chinese document into an English document for Linux deployment,
 Source code deployment is slightly more complex because Docker's networking on Linux differs from Mac.
 
 ```bash
-git clone https://github.com/openimsdk/open-im-server
+git clone https://github.com/KyleYe/open-im-server
 cd open-im-server
 
 export OPENIM_IP="Your IP" # If it's a cloud server, setting might not be needed
@@ -247,7 +247,7 @@ git checkout main
 git rebase upstream/main
 ```
 
-More read: [https://github.com/openimsdk/open-im-server/blob/main/CONTRIBUTING.md](https://github.com/openimsdk/open-im-server/blob/main/CONTRIBUTING.md)
+More read: [https://github.com/KyleYe/open-im-server/blob/main/CONTRIBUTING.md](https://github.com/KyleYe/open-im-server/blob/main/CONTRIBUTING.md)
 
 ## Testing and Quality Assurance
 

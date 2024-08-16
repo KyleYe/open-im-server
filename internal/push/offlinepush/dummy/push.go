@@ -16,7 +16,7 @@ package dummy
 
 import (
 	"context"
-	"github.com/openimsdk/open-im-server/v3/internal/push/offlinepush/options"
+	"github.com/KyleYe/open-im-server/v3/internal/push/offlinepush/options"
 )
 
 func NewClient() *Dummy {

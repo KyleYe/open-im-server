@@ -15,13 +15,13 @@
 package api
 
 import (
+	"github.com/KyleYe/open-im-server/v3/pkg/apistruct"
+	"github.com/KyleYe/open-im-server/v3/pkg/authverify"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
+	"github.com/KyleYe/open-im-server/v3/pkg/rpcclient"
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
 	"github.com/mitchellh/mapstructure"
-	"github.com/openimsdk/open-im-server/v3/pkg/apistruct"
-	"github.com/openimsdk/open-im-server/v3/pkg/authverify"
-	"github.com/openimsdk/open-im-server/v3/pkg/common/config"
-	"github.com/openimsdk/open-im-server/v3/pkg/rpcclient"
 	"github.com/openimsdk/protocol/constant"
 	"github.com/openimsdk/protocol/msg"
 	"github.com/openimsdk/protocol/sdkws"

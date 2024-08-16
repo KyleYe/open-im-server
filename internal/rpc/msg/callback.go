@@ -16,10 +16,10 @@ package msg
 
 import (
 	"context"
-	"github.com/openimsdk/open-im-server/v3/pkg/common/webhook"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/webhook"
 
-	cbapi "github.com/openimsdk/open-im-server/v3/pkg/callbackstruct"
-	"github.com/openimsdk/open-im-server/v3/pkg/common/config"
+	cbapi "github.com/KyleYe/open-im-server/v3/pkg/callbackstruct"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
 	"github.com/openimsdk/protocol/constant"
 	pbchat "github.com/openimsdk/protocol/msg"
 	"github.com/openimsdk/protocol/sdkws"

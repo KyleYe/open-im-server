@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/openimsdk/open-im-server/v3/tools/seq/internal"
+	"github.com/KyleYe/open-im-server/v3/tools/seq/internal"
 	"time"
 )
 

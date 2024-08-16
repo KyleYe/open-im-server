@@ -16,7 +16,7 @@ package msg
 
 import (
 	"context"
-	"github.com/openimsdk/open-im-server/v3/pkg/common/servererrs"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/servererrs"
 	"github.com/openimsdk/tools/utils/datautil"
 	"github.com/openimsdk/tools/utils/encrypt"
 	"github.com/openimsdk/tools/utils/timeutil"

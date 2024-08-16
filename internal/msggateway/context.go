@@ -15,7 +15,7 @@
 package msggateway
 
 import (
-	"github.com/openimsdk/open-im-server/v3/pkg/common/servererrs"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/servererrs"
 	"net/http"
 	"net/url"
 	"strconv"

@@ -15,7 +15,7 @@
 package convert
 
 import (
-	"github.com/openimsdk/open-im-server/v3/pkg/common/storage/model"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
 	"github.com/openimsdk/protocol/constant"
 	"github.com/openimsdk/protocol/sdkws"
 )

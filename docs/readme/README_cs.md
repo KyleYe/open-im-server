@@ -6,15 +6,15 @@
 
 <div align="center">
 
-[![Stars](https://img.shields.io/github/stars/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=ff69b4)](https://github.com/openimsdk/open-im-server/stargazers)
-[![Forks](https://img.shields.io/github/forks/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=blue)](https://github.com/openimsdk/open-im-server/network/members)
+[![Stars](https://img.shields.io/github/stars/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=ff69b4)](https://github.com/KyleYe/open-im-server/stargazers)
+[![Forks](https://img.shields.io/github/forks/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=blue)](https://github.com/KyleYe/open-im-server/network/members)
 [![Codecov](https://img.shields.io/codecov/c/github/openimsdk/open-im-server?style=for-the-badge&logo=codecov&colorB=orange)](https://app.codecov.io/gh/openimsdk/open-im-server)
-[![Go Report Card](https://goreportcard.com/badge/github.com/openimsdk/open-im-server?style=for-the-badge)](https://goreportcard.com/report/github.com/openimsdk/open-im-server)
-[![Go Reference](https://img.shields.io/badge/Go%20Reference-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://pkg.go.dev/github.com/openimsdk/open-im-server/v3)
-[![License](https://img.shields.io/badge/license-Apache--2.0-green?style=for-the-badge)](https://github.com/openimsdk/open-im-server/blob/main/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/KyleYe/open-im-server?style=for-the-badge)](https://goreportcard.com/report/github.com/KyleYe/open-im-server)
+[![Go Reference](https://img.shields.io/badge/Go%20Reference-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://pkg.go.dev/github.com/KyleYe/open-im-server/v3)
+[![License](https://img.shields.io/badge/license-Apache--2.0-green?style=for-the-badge)](https://github.com/KyleYe/open-im-server/blob/main/LICENSE)
 [![Slack](https://img.shields.io/badge/Slack-500%2B-blueviolet?style=for-the-badge&logo=slack&logoColor=white)](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q)
 [![Best Practices](https://img.shields.io/badge/Best%20Practices-purple?style=for-the-badge)](https://www.bestpractices.dev/projects/8045)
-[![Good First Issues](https://img.shields.io/github/issues/openimsdk/open-im-server/good%20first%20issue?style=for-the-badge&logo=github)](https://github.com/openimsdk/open-im-server/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22)
+[![Good First Issues](https://img.shields.io/github/issues/openimsdk/open-im-server/good%20first%20issue?style=for-the-badge&logo=github)](https://github.com/KyleYe/open-im-server/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22)
 [![Language](https://img.shields.io/badge/Language-Go-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://golang.org/)
 
 
@@ -120,39 +120,39 @@ Podporujeme mnoho platforem. Zde jsou adresy pro rychlou práci na webové strá
 
 OpenIM Naším cílem je vybudovat špičkovou open source komunitu. Máme soubor standardů v [komunitním repozitáři](https://github.com/OpenIMSDK/community).
 
-Pokud byste chtěli přispět do tohoto úložiště Open-IM-Server, přečtěte si naši [dokumentaci pro přispěvatele](https://github.com/openimsdk/open-im-server/blob/main/CONTRIBUTING.md).
+Pokud byste chtěli přispět do tohoto úložiště Open-IM-Server, přečtěte si naši [dokumentaci pro přispěvatele](https://github.com/KyleYe/open-im-server/blob/main/CONTRIBUTING.md).
 
-Než začnete, ujistěte se, že jsou vaše změny vyžadovány. Nejlepší pro to je vytvořit [nová diskuze](https://github.com/openimsdk/open-im-server/discussions/new/choose) NEBO [Slack Communication](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q), nebo pokud narazíte na problém, [nahlásit jej](https://github.com/openimsdk/open-im-server/issues/new/choose) jako první.
+Než začnete, ujistěte se, že jsou vaše změny vyžadovány. Nejlepší pro to je vytvořit [nová diskuze](https://github.com/KyleYe/open-im-server/discussions/new/choose) NEBO [Slack Communication](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q), nebo pokud narazíte na problém, [nahlásit jej](https://github.com/KyleYe/open-im-server/issues/new/choose) jako první.
 
-- [OpenIM API Reference](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/api.md)
-- [Protokolování OpenIM Bash](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/bash-log.md)
-- [Akce OpenIM CI/CD](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/cicd-actions.md)
-- [Konvence kódu OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/code-conventions.md)
-- [Pokyny k zavázání OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/commit.md)
-- [Průvodce vývojem OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/development.md)
-- [Struktura adresáře OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/directory.md)
-- [Nastavení prostředí OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/environment.md)
-- [Referenční kód chybového kódu OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/error-code.md)
-- [Pracovní postup OpenIM Git](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/git-workflow.md)
-- [OpenIM Git Cherry Pick Guide](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/gitcherry-pick.md)
-- [Pracovní postup OpenIM GitHub](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/github-workflow.md)
-- [standardy kódu OpenIM Go](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/go-code.md)
-- [Pokyny pro obrázky OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/images.md)
-- [Počáteční konfigurace OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/init-config.md)
-- [Průvodce instalací OpenIM Docker](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/install-docker.md)
-- [nstalace systému OpenIM OpenIM Linux](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/install-openim-linux-system.md)
-- [OpenIM Linux Development Guide](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/linux-development.md)
-- [Průvodce místními akcemi OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/local-actions.md)
-- [Konvence protokolování OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/logging.md)
-- [Offline nasazení OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/offline-deployment.md)
-- [Nástroje protokolu OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/protoc-tools.md)
-- [Příručka testování OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/test.md)
-- [OpenIM Utility Go](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/util-go.md)
-- [OpenIM Makefile Utilities](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/util-makefile.md)
-- [OpenIM Script Utilities](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/util-scripts.md)
-- [OpenIM Versioning](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/version.md)
-- [Spravovat backend a monitorovat nasazení](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/prometheus-grafana.md)
-- [Průvodce nasazením pro vývojáře Mac pro OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/mac-developer-deployment-guide.md)
+- [OpenIM API Reference](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/api.md)
+- [Protokolování OpenIM Bash](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/bash-log.md)
+- [Akce OpenIM CI/CD](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/cicd-actions.md)
+- [Konvence kódu OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/code-conventions.md)
+- [Pokyny k zavázání OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/commit.md)
+- [Průvodce vývojem OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/development.md)
+- [Struktura adresáře OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/directory.md)
+- [Nastavení prostředí OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/environment.md)
+- [Referenční kód chybového kódu OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/error-code.md)
+- [Pracovní postup OpenIM Git](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/git-workflow.md)
+- [OpenIM Git Cherry Pick Guide](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/gitcherry-pick.md)
+- [Pracovní postup OpenIM GitHub](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/github-workflow.md)
+- [standardy kódu OpenIM Go](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/go-code.md)
+- [Pokyny pro obrázky OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/images.md)
+- [Počáteční konfigurace OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/init-config.md)
+- [Průvodce instalací OpenIM Docker](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/install-docker.md)
+- [nstalace systému OpenIM OpenIM Linux](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/install-openim-linux-system.md)
+- [OpenIM Linux Development Guide](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/linux-development.md)
+- [Průvodce místními akcemi OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/local-actions.md)
+- [Konvence protokolování OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/logging.md)
+- [Offline nasazení OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/offline-deployment.md)
+- [Nástroje protokolu OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/protoc-tools.md)
+- [Příručka testování OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/test.md)
+- [OpenIM Utility Go](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/util-go.md)
+- [OpenIM Makefile Utilities](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/util-makefile.md)
+- [OpenIM Script Utilities](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/util-scripts.md)
+- [OpenIM Versioning](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/version.md)
+- [Spravovat backend a monitorovat nasazení](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/prometheus-grafana.md)
+- [Průvodce nasazením pro vývojáře Mac pro OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/mac-developer-deployment-guide.md)
 
 
 ## :busts_in_silhouette: Společenství
@@ -168,20 +168,20 @@ Chceme, aby se do naší komunity a přispívání kódu zapojil kdokoli, nabíz
 
 Naše konference je v [OpenIM Slack](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q) 🎯, pak můžete vyhledat kanál Open-IM-Server a připojit se
 
-Zaznamenáváme si každou [dvoutýdenní schůzku](https://github.com/orgs/OpenIMSDK/discussions/categories/meeting)do [diskuzí na GitHubu](https://github.com/openimsdk/open-im-server/discussions/categories/meeting), naše historické poznámky ze schůzek a také záznamy schůzek jsou k dispozici na [Dokumenty Google :bookmark_tabs:](https://docs.google.com/document/d/1nx8MDpuG74NASx081JcCpxPgDITNTpIIos0DS6Vr9GU/edit?usp=sharing).
+Zaznamenáváme si každou [dvoutýdenní schůzku](https://github.com/orgs/OpenIMSDK/discussions/categories/meeting)do [diskuzí na GitHubu](https://github.com/KyleYe/open-im-server/discussions/categories/meeting), naše historické poznámky ze schůzek a také záznamy schůzek jsou k dispozici na [Dokumenty Google :bookmark_tabs:](https://docs.google.com/document/d/1nx8MDpuG74NASx081JcCpxPgDITNTpIIos0DS6Vr9GU/edit?usp=sharing).
 
 ## :eyes: Kdo používá OpenIM
 
-Podívejte se na naši stránku [případové studie uživatelů](https://github.com/OpenIMSDK/community/blob/main/ADOPTERS.md), kde najdete seznam uživatelů projektu. Neváhejte zanechat[📝komentář](https://github.com/openimsdk/open-im-server/issues/379) a podělte se o svůj případ použití.
+Podívejte se na naši stránku [případové studie uživatelů](https://github.com/OpenIMSDK/community/blob/main/ADOPTERS.md), kde najdete seznam uživatelů projektu. Neváhejte zanechat[📝komentář](https://github.com/KyleYe/open-im-server/issues/379) a podělte se o svůj případ použití.
 
 ## :page_facing_up: License
 
-OpenIM je licencován pod licencí Apache 2.0. Úplný text licence naleznete v [LICENCE](https://github.com/openimsdk/open-im-server/tree/main/LICENSE).
+OpenIM je licencován pod licencí Apache 2.0. Úplný text licence naleznete v [LICENCE](https://github.com/KyleYe/open-im-server/tree/main/LICENSE).
 
-Logo OpenIM, včetně jeho variací a animovaných verzí, zobrazené v tomto úložišti [OpenIM](https://github.com/openimsdk/open-im-server)v adresářích [assets/logo](./assets/logo) a [assets/logo-gif](assets/logo-gif) je chráněno autorským právem.
+Logo OpenIM, včetně jeho variací a animovaných verzí, zobrazené v tomto úložišti [OpenIM](https://github.com/KyleYe/open-im-server)v adresářích [assets/logo](./assets/logo) a [assets/logo-gif](assets/logo-gif) je chráněno autorským právem.
 
 ## 🔮 Děkujeme našim přispěvatelům!
 
-<a href="https://github.com/openimsdk/open-im-server/graphs/contributors">
+<a href="https://github.com/KyleYe/open-im-server/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=openimsdk/open-im-server" />
 </a>

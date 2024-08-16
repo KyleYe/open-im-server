@@ -2,14 +2,14 @@ package relation
 
 import (
 	"context"
-	"github.com/openimsdk/open-im-server/v3/pkg/util/hashutil"
+	"github.com/KyleYe/open-im-server/v3/pkg/util/hashutil"
 	"github.com/openimsdk/protocol/sdkws"
 	"github.com/openimsdk/tools/log"
 	"slices"
 
-	"github.com/openimsdk/open-im-server/v3/internal/rpc/incrversion"
-	"github.com/openimsdk/open-im-server/v3/pkg/authverify"
-	"github.com/openimsdk/open-im-server/v3/pkg/common/storage/model"
+	"github.com/KyleYe/open-im-server/v3/internal/rpc/incrversion"
+	"github.com/KyleYe/open-im-server/v3/pkg/authverify"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
 	"github.com/openimsdk/protocol/relation"
 )
 

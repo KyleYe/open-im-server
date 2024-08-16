@@ -16,12 +16,12 @@ package msg
 
 import (
 	"context"
-	"github.com/openimsdk/open-im-server/v3/pkg/util/conversationutil"
+	"github.com/KyleYe/open-im-server/v3/pkg/util/conversationutil"
 	"github.com/openimsdk/tools/utils/datautil"
 	"github.com/openimsdk/tools/utils/timeutil"
 
-	"github.com/openimsdk/open-im-server/v3/pkg/authverify"
-	"github.com/openimsdk/open-im-server/v3/pkg/msgprocessor"
+	"github.com/KyleYe/open-im-server/v3/pkg/authverify"
+	"github.com/KyleYe/open-im-server/v3/pkg/msgprocessor"
 	"github.com/openimsdk/protocol/constant"
 	"github.com/openimsdk/protocol/msg"
 	"github.com/openimsdk/protocol/sdkws"

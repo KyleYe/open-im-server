@@ -17,16 +17,16 @@ package auth
 import (
 	"context"
 
-	"github.com/openimsdk/open-im-server/v3/pkg/common/config"
-	redis2 "github.com/openimsdk/open-im-server/v3/pkg/common/storage/cache/redis"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
+	redis2 "github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache/redis"
 	"github.com/openimsdk/tools/db/redisutil"
 	"github.com/redis/go-redis/v9"
 
-	"github.com/openimsdk/open-im-server/v3/pkg/authverify"
-	"github.com/openimsdk/open-im-server/v3/pkg/common/prommetrics"
-	"github.com/openimsdk/open-im-server/v3/pkg/common/servererrs"
-	"github.com/openimsdk/open-im-server/v3/pkg/common/storage/controller"
-	"github.com/openimsdk/open-im-server/v3/pkg/rpcclient"
+	"github.com/KyleYe/open-im-server/v3/pkg/authverify"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/prommetrics"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/servererrs"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/controller"
+	"github.com/KyleYe/open-im-server/v3/pkg/rpcclient"
 	pbauth "github.com/openimsdk/protocol/auth"
 	"github.com/openimsdk/protocol/constant"
 	"github.com/openimsdk/protocol/msggateway"

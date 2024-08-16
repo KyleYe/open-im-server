@@ -18,7 +18,7 @@ Below are the base images and their versions you'll need:
 OpenIM:
 
 > [!TIP]
-> If you need to install more IM components or monitoring products [images.md](https://github.com/openimsdk/open-im-server/blob/main/docs/contrib/images.md)
+> If you need to install more IM components or monitoring products [images.md](https://github.com/KyleYe/open-im-server/blob/main/docs/contrib/images.md)
 
 - [ ] ghcr.io/openimsdk/openim-web:<version-name>
 - [ ] ghcr.io/openimsdk/openim-admin:<version-name>
@@ -56,11 +56,11 @@ docker pull bitnami/node-exporter:1.7.0
 
 ## 2. OpenIM Images
 
-**For detailed understanding of version management and storage of OpenIM and Chat**: [version.md](https://github.com/openimsdk/open-im-server/blob/main/docs/contrib/version.md)
+**For detailed understanding of version management and storage of OpenIM and Chat**: [version.md](https://github.com/KyleYe/open-im-server/blob/main/docs/contrib/version.md)
 
 ### OpenIM Image
 
-- Get image version info: [images.md](https://github.com/openimsdk/open-im-server/blob/main/docs/contrib/images.md)
+- Get image version info: [images.md](https://github.com/KyleYe/open-im-server/blob/main/docs/contrib/images.md)
 - Depending on the required version, execute the following command:
 
 ```bash
@@ -173,6 +173,6 @@ docker compose ps # Verify
 
 ## 6. Reference Links
 
-- [openimsdk Issue #432](https://github.com/openimsdk/open-im-server/issues/432)
+- [openimsdk Issue #432](https://github.com/KyleYe/open-im-server/issues/432)
 - [Notion Link](https://nsddd.notion.site/435ee747c0bc44048da9300a2d745ad3?pvs=25)
-- [openimsdk Issue #474](https://github.com/openimsdk/open-im-server/issues/474)
+- [openimsdk Issue #474](https://github.com/KyleYe/open-im-server/issues/474)

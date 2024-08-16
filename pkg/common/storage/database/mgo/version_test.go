@@ -2,7 +2,7 @@ package mgo
 
 import (
 	"context"
-	"github.com/openimsdk/open-im-server/v3/pkg/common/storage/model"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"testing"

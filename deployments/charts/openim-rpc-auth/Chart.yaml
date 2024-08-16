@@ -49,5 +49,5 @@ keywords:
   - chat
 
 sources:
-  - "https://github.com/openimsdk/open-im-server"
+  - "https://github.com/KyleYe/open-im-server"
   - "https://github.com/openimsdk/helm-charts"

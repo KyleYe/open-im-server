@@ -2,8 +2,8 @@ package redis
 
 import (
 	"context"
-	"github.com/openimsdk/open-im-server/v3/pkg/common/config"
-	"github.com/openimsdk/open-im-server/v3/pkg/common/storage/database/mgo"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/database/mgo"
 	"github.com/openimsdk/tools/db/mongoutil"
 	"github.com/openimsdk/tools/db/redisutil"
 	"testing"

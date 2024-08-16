@@ -2,7 +2,7 @@
 
 ## Script Logging Documentation Link
 
-If you wish to view the script's logging documentation, you can click on this link: [Logging Documentation](https://github.com/openimsdk/open-im-server/blob/main/docs/contrib/bash-log.md).
+If you wish to view the script's logging documentation, you can click on this link: [Logging Documentation](https://github.com/KyleYe/open-im-server/blob/main/docs/contrib/bash-log.md).
 
 Below is the documentation for logging and error handling in the OpenIM Go project.
 
@@ -203,7 +203,7 @@ More details")
     package main
 
     import (
-        util "github.com/openimsdk/open-im-server/v3/pkg/util/genutil"
+        util "github.com/KyleYe/open-im-server/v3/pkg/util/genutil"
     )
 
     func main() {

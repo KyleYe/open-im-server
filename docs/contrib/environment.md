@@ -83,13 +83,13 @@ OpenIM provides multiple deployment methods, each tailored to different use case
 
 1. **[Source Code Deployment Guide](https://doc.rentsoft.cn/guides/gettingStarted/imSourceCodeDeployment)**
 2. **[Docker Deployment Guide](https://doc.rentsoft.cn/guides/gettingStarted/dockerCompose)**
-3. **[Kubernetes Deployment Guide](https://github.com/openimsdk/open-im-server/tree/main/deployments)**
+3. **[Kubernetes Deployment Guide](https://github.com/KyleYe/open-im-server/tree/main/deployments)**
 
 While the first two methods will be our main focus, it's worth noting that the third method, Kubernetes deployment, is also viable and can be rendered via the `environment.sh` script variables.
 
 ###  1.2. <a name='SourceCodeDeployment'></a>Source Code Deployment
 
-In the source code deployment method, the configuration generation process involves executing `make init`, which fundamentally runs the script `./scripts/init-config.sh`. This script utilizes variables defined in the [`environment.sh`](https://github.com/openimsdk/open-im-server/blob/main/scripts/install/environment.sh) script to render the [`config.yaml`](https://github.com/openimsdk/open-im-server/blob/main/deployments/templates/config.yaml) template file, subsequently generating the [`config.yaml`](https://github.com/openimsdk/open-im-server/blob/main/config/config.yaml) configuration file.
+In the source code deployment method, the configuration generation process involves executing `make init`, which fundamentally runs the script `./scripts/init-config.sh`. This script utilizes variables defined in the [`environment.sh`](https://github.com/KyleYe/open-im-server/blob/main/scripts/install/environment.sh) script to render the [`config.yaml`](https://github.com/KyleYe/open-im-server/blob/main/deployments/templates/config.yaml) template file, subsequently generating the [`config.yaml`](https://github.com/KyleYe/open-im-server/blob/main/config/config.yaml) configuration file.
 
 ###  1.3. <a name='DockerComposeDeployment'></a>Docker Compose Deployment
 
@@ -108,14 +108,14 @@ export CHAT_IMAGE_VERSION="main"
 export SERVER_IMAGE_VERSION="main"
 ```
 
-These variables are stored within the [`environment.sh`](https://github.com/OpenIMSDK/open-im-server/blob/main/scripts/install/environment.sh) configuration:
+These variables are stored within the [`environment.sh`](https://github.com/KyleYe/open-im-server/blob/main/scripts/install/environment.sh) configuration:
 
 ```bash
 readonly CHAT_IMAGE_VERSION=${CHAT_IMAGE_VERSION:-'main'}
 readonly SERVER_IMAGE_VERSION=${SERVER_IMAGE_VERSION:-'main'}
 ```
 > [!IMPORTANT]
-> Can learn to read our mirror version strategy: https://github.com/openimsdk/open-im-server/blob/main/docs/contrib/images.md
+> Can learn to read our mirror version strategy: https://github.com/KyleYe/open-im-server/blob/main/docs/contrib/images.md
 
 
 Setting a variable, e.g., `export CHAT_IMAGE_VERSION="release-v1.3"`, will prioritize `CHAT_IMAGE_VERSION="release-v1.3"` as the variable value. Ultimately, the chosen image version is determined, and rendering is achieved through `make init` (or `./scripts/init-config.sh`).
@@ -210,7 +210,7 @@ export MINIO_RETENTION_DAYS="30"
 
 ####  1.4.5. <a name='MonitoringandLogging'></a>Monitoring and Logging
 
-##### [Audit Logging](https://github.com/openimsdk/open-im-server/blob/main/docs/contrib/environment.md#audit-logging)
+##### [Audit Logging](https://github.com/KyleYe/open-im-server/blob/main/docs/contrib/environment.md#audit-logging)
 
 Enable audit logging to keep track of access and changes to your data.
 

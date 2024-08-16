@@ -17,7 +17,7 @@ package msg
 import (
 	"context"
 
-	cbapi "github.com/openimsdk/open-im-server/v3/pkg/callbackstruct"
+	cbapi "github.com/KyleYe/open-im-server/v3/pkg/callbackstruct"
 	"github.com/openimsdk/protocol/constant"
 	"github.com/openimsdk/protocol/msg"
 	"github.com/openimsdk/protocol/sdkws"

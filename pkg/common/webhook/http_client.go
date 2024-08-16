@@ -17,9 +17,9 @@ package webhook
 import (
 	"context"
 	"encoding/json"
-	"github.com/openimsdk/open-im-server/v3/pkg/callbackstruct"
-	"github.com/openimsdk/open-im-server/v3/pkg/common/config"
-	"github.com/openimsdk/open-im-server/v3/pkg/common/servererrs"
+	"github.com/KyleYe/open-im-server/v3/pkg/callbackstruct"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/servererrs"
 	"github.com/openimsdk/protocol/constant"
 	"github.com/openimsdk/tools/log"
 	"github.com/openimsdk/tools/mcontext"

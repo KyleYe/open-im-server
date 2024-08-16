@@ -17,7 +17,7 @@ package msg
 import (
 	"context"
 
-	"github.com/openimsdk/open-im-server/v3/pkg/authverify"
+	"github.com/KyleYe/open-im-server/v3/pkg/authverify"
 	"github.com/openimsdk/protocol/constant"
 	"github.com/openimsdk/protocol/conversation"
 	"github.com/openimsdk/protocol/msg"

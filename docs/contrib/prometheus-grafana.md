@@ -55,7 +55,7 @@ Next, we will introduce the specific steps, monitoring, and management backend c
 
 OpenIM deploys openim-server and openim-chat from source code, while other components are deployed via Docker.
 
-For Docker deployment, you can deploy all components with a single command using the [openimsdk/openim-docker](https://github.com/openimsdk/openim-docker) repository. The deployment configuration can be found in the [environment.sh](https://github.com/openimsdk/open-im-server/blob/main/scripts/install/environment.sh) document, which provides information on how to learn and familiarize yourself with various environment variables.
+For Docker deployment, you can deploy all components with a single command using the [openimsdk/openim-docker](https://github.com/openimsdk/openim-docker) repository. The deployment configuration can be found in the [environment.sh](https://github.com/KyleYe/open-im-server/blob/main/scripts/install/environment.sh) document, which provides information on how to learn and familiarize yourself with various environment variables.
 
 For Prometheus, it is not enabled by default. To enable it, set the environment variable before executing `make init`:
 
@@ -227,7 +227,7 @@ Running Effect Image:
 ####  1.3.10. <a name='Troubleshooting'></a>Troubleshooting
 
 + If you encounter any issues, please check the documentation on [OpenIM Docker GitHub](https://github.com/openimsdk/openim-docker) or search for related issues in the Issues section.
-+ If the problem persists, you can create an issue on the [openim-docker](https://github.com/openimsdk/openim-docker/issues/new/choose) repository or the [openim-server](https://github.com/openimsdk/open-im-server/issues/new/choose) repository.
++ If the problem persists, you can create an issue on the [openim-docker](https://github.com/openimsdk/openim-docker/issues/new/choose) repository or the [openim-server](https://github.com/KyleYe/open-im-server/issues/new/choose) repository.
 
 
 

@@ -16,7 +16,7 @@ package cache
 
 import (
 	"context"
-	relationtb "github.com/openimsdk/open-im-server/v3/pkg/common/storage/model"
+	relationtb "github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
 )
 
 // arg fn will exec when no data in msgCache.

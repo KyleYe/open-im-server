@@ -5,7 +5,7 @@ import (
 	"crypto/md5"
 	"encoding/binary"
 	"fmt"
-	"github.com/openimsdk/open-im-server/v3/pkg/common/storage/cache/cachekey"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache/cachekey"
 	pbuser "github.com/openimsdk/protocol/user"
 	"github.com/openimsdk/tools/log"
 	"github.com/openimsdk/tools/mcontext"

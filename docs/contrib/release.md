@@ -7,7 +7,7 @@ This document outlines the automation process for releasing OpenIM. You can use 
 In our CICD pipeline, we have implemented logic for automating the release process using the goreleaser tool. To achieve this, follow these steps on your local machine or server:
 
 ```bash
-git clone https://github.com/openimsdk/open-im-server
+git clone https://github.com/KyleYe/open-im-server
 cd open-im-server
 git tag -a v3.6.0 -s -m "release: xxx"
 # For pre-release versions: git tag -a v3.6.0-rc.0 -s -m "pre-release: xxx"

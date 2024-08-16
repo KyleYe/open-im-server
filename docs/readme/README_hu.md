@@ -6,15 +6,15 @@
 
 <div align="center">
 
-[![Stars](https://img.shields.io/github/stars/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=ff69b4)](https://github.com/openimsdk/open-im-server/stargazers)
-[![Forks](https://img.shields.io/github/forks/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=blue)](https://github.com/openimsdk/open-im-server/network/members)
+[![Stars](https://img.shields.io/github/stars/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=ff69b4)](https://github.com/KyleYe/open-im-server/stargazers)
+[![Forks](https://img.shields.io/github/forks/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=blue)](https://github.com/KyleYe/open-im-server/network/members)
 [![Codecov](https://img.shields.io/codecov/c/github/openimsdk/open-im-server?style=for-the-badge&logo=codecov&colorB=orange)](https://app.codecov.io/gh/openimsdk/open-im-server)
-[![Go Report Card](https://goreportcard.com/badge/github.com/openimsdk/open-im-server?style=for-the-badge)](https://goreportcard.com/report/github.com/openimsdk/open-im-server)
-[![Go Reference](https://img.shields.io/badge/Go%20Reference-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://pkg.go.dev/github.com/openimsdk/open-im-server/v3)
-[![License](https://img.shields.io/badge/license-Apache--2.0-green?style=for-the-badge)](https://github.com/openimsdk/open-im-server/blob/main/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/KyleYe/open-im-server?style=for-the-badge)](https://goreportcard.com/report/github.com/KyleYe/open-im-server)
+[![Go Reference](https://img.shields.io/badge/Go%20Reference-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://pkg.go.dev/github.com/KyleYe/open-im-server/v3)
+[![License](https://img.shields.io/badge/license-Apache--2.0-green?style=for-the-badge)](https://github.com/KyleYe/open-im-server/blob/main/LICENSE)
 [![Slack](https://img.shields.io/badge/Slack-500%2B-blueviolet?style=for-the-badge&logo=slack&logoColor=white)](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q)
 [![Best Practices](https://img.shields.io/badge/Best%20Practices-purple?style=for-the-badge)](https://www.bestpractices.dev/projects/8045)
-[![Good First Issues](https://img.shields.io/github/issues/openimsdk/open-im-server/good%20first%20issue?style=for-the-badge&logo=github)](https://github.com/openimsdk/open-im-server/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22)
+[![Good First Issues](https://img.shields.io/github/issues/openimsdk/open-im-server/good%20first%20issue?style=for-the-badge&logo=github)](https://github.com/KyleYe/open-im-server/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22)
 [![Language](https://img.shields.io/badge/Language-Go-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://golang.org/)
 
 
@@ -120,39 +120,39 @@ Számos platformot támogatunk. Íme a címek a gyors weboldali használathoz:
 
 OpenIM Célunk egy felső szintű nyílt forráskódú közösség felépítése. Van egy szabványkészletünk a [Közösségi adattárban](https://github.com/OpenIMSDK/community).
 
-Ha hozzá szeretne járulni ehhez az Open-IM-Server adattárhoz, kérjük, olvassa el [közreműködői dokumentációnkat](https://github.com/openimsdk/open-im-server/blob/main/CONTRIBUTING.md).
+Ha hozzá szeretne járulni ehhez az Open-IM-Server adattárhoz, kérjük, olvassa el [közreműködői dokumentációnkat](https://github.com/KyleYe/open-im-server/blob/main/CONTRIBUTING.md).
 
-Mielőtt elkezdené, győződjön meg arról, hogy a változtatásokra van-e igény. Erre a legjobb egy [új beszélgetés](https://github.com/openimsdk/open-im-server/discussions/new/choose) VAGY [Slack Communication](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q)létrehozása, vagy ha problémát talál, először [jelentse](https://github.com/openimsdk/open-im-server/issues/new/choose) first.
+Mielőtt elkezdené, győződjön meg arról, hogy a változtatásokra van-e igény. Erre a legjobb egy [új beszélgetés](https://github.com/KyleYe/open-im-server/discussions/new/choose) VAGY [Slack Communication](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q)létrehozása, vagy ha problémát talál, először [jelentse](https://github.com/KyleYe/open-im-server/issues/new/choose) first.
 
-- [OpenIM API referencia](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/api.md)
-- [OpenIM Bash naplózás](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/bash-log.md)
-- [OpenIM CI/CD műveletek](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/cicd-actions.md)
-- [OpenIM Code-egyezmények](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/code-conventions.md)
-- [OpenIM Commit Guidelines](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/commit.md)
-- [OpenIM fejlesztési útmutató](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/development.md)
-- [OpenIM címtárszerkezet](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/directory.md)
-- [OpenIM környezet beállítása](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/environment.md)
-- [OpenIM hibakód hivatkozás](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/error-code.md)
-- [OpenIM Git Workflow](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/git-workflow.md)
-- [OpenIM Git Cherry Pick Guide](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/gitcherry-pick.md)
-- [OpenIM GitHub munkafolyamat](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/github-workflow.md)
-- [OpenIM Go Code szabványok](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/go-code.md)
-- [OpenIM képre vonatkozó irányelvek](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/images.md)
-- [OpenIM kezdeti konfiguráció](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/init-config.md)
-- [OpenIM Docker telepítési útmutató](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/install-docker.md)
-- [OpenIM OpenIM Linux rendszertelepítés](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/install-openim-linux-system.md)
-- [OpenIM Linux fejlesztési útmutató](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/linux-development.md)
-- [OpenIM helyi műveletek útmutatója](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/local-actions.md)
-- [OpenIM naplózási egyezmények](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/logging.md)
-- [OpenIM offline telepítés](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/offline-deployment.md)
-- [OpenIM Protoc Tools](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/protoc-tools.md)
-- [OpenIM tesztelési útmutató](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/test.md)
-- [OpenIM Utility Go](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/util-go.md)
-- [OpenIM Makefile Utilities](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/util-makefile.md)
-- [OpenIM Script Utilities](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/util-scripts.md)
-- [OpenIM verzió](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/version.md)
-- [A háttérrendszer kezelése és a telepítés figyelése](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/prometheus-grafana.md)
-- [Mac Developer Deployment Guide for OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/mac-developer-deployment-guide.md)
+- [OpenIM API referencia](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/api.md)
+- [OpenIM Bash naplózás](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/bash-log.md)
+- [OpenIM CI/CD műveletek](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/cicd-actions.md)
+- [OpenIM Code-egyezmények](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/code-conventions.md)
+- [OpenIM Commit Guidelines](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/commit.md)
+- [OpenIM fejlesztési útmutató](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/development.md)
+- [OpenIM címtárszerkezet](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/directory.md)
+- [OpenIM környezet beállítása](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/environment.md)
+- [OpenIM hibakód hivatkozás](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/error-code.md)
+- [OpenIM Git Workflow](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/git-workflow.md)
+- [OpenIM Git Cherry Pick Guide](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/gitcherry-pick.md)
+- [OpenIM GitHub munkafolyamat](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/github-workflow.md)
+- [OpenIM Go Code szabványok](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/go-code.md)
+- [OpenIM képre vonatkozó irányelvek](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/images.md)
+- [OpenIM kezdeti konfiguráció](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/init-config.md)
+- [OpenIM Docker telepítési útmutató](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/install-docker.md)
+- [OpenIM OpenIM Linux rendszertelepítés](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/install-openim-linux-system.md)
+- [OpenIM Linux fejlesztési útmutató](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/linux-development.md)
+- [OpenIM helyi műveletek útmutatója](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/local-actions.md)
+- [OpenIM naplózási egyezmények](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/logging.md)
+- [OpenIM offline telepítés](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/offline-deployment.md)
+- [OpenIM Protoc Tools](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/protoc-tools.md)
+- [OpenIM tesztelési útmutató](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/test.md)
+- [OpenIM Utility Go](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/util-go.md)
+- [OpenIM Makefile Utilities](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/util-makefile.md)
+- [OpenIM Script Utilities](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/util-scripts.md)
+- [OpenIM verzió](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/version.md)
+- [A háttérrendszer kezelése és a telepítés figyelése](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/prometheus-grafana.md)
+- [Mac Developer Deployment Guide for OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/mac-developer-deployment-guide.md)
 
 
 ## :busts_in_silhouette: Közösség
@@ -168,20 +168,20 @@ Szeretnénk, ha bárki bekapcsolódna közösségünkbe és hozzájárulna kódu
 
 Konferenciánk az [OpenIM Slack](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q) 🎯alatt van, akkor kereshet az Open-IM-Server folyamatban a csatlakozáshoz
 
-A [GitHub-beszélgetések](https://github.com/orgs/OpenIMSDK/discussions/categories/meeting)minden [kéthetente történő megbeszélésről](https://github.com/openimsdk/open-im-server/discussions/categories/meeting) jegyzeteket készítünk. A találkozók történeti feljegyzései, valamint az értekezletek visszajátszásai a [Google Dokumentumok :bookmark_tabs:](https://docs.google.com/document/d/1nx8MDpuG74NASx081JcCpxPgDITNTpIIos0DS6Vr9GU/edit?usp=sharing) webhelyen érhetők el.
+A [GitHub-beszélgetések](https://github.com/orgs/OpenIMSDK/discussions/categories/meeting)minden [kéthetente történő megbeszélésről](https://github.com/KyleYe/open-im-server/discussions/categories/meeting) jegyzeteket készítünk. A találkozók történeti feljegyzései, valamint az értekezletek visszajátszásai a [Google Dokumentumok :bookmark_tabs:](https://docs.google.com/document/d/1nx8MDpuG74NASx081JcCpxPgDITNTpIIos0DS6Vr9GU/edit?usp=sharing) webhelyen érhetők el.
 
 ## :eyes: Kik használják az OpenIM-et
 
-Tekintse meg [felhasználói esettanulmányok](https://github.com/OpenIMSDK/community/blob/main/ADOPTERS.md) oldalunkat a projekt felhasználóinak listájáért. Ne habozzon, hagyjon [📝megjegyzést](https://github.com/openimsdk/open-im-server/issues/379), és ossza meg használati esetét.
+Tekintse meg [felhasználói esettanulmányok](https://github.com/OpenIMSDK/community/blob/main/ADOPTERS.md) oldalunkat a projekt felhasználóinak listájáért. Ne habozzon, hagyjon [📝megjegyzést](https://github.com/KyleYe/open-im-server/issues/379), és ossza meg használati esetét.
 
 ## :page_facing_up: Engedély
 
-Az OpenIM licence az Apache 2.0 licence alá tartozik. A teljes licencszövegért lásd: [LICENSE](https://github.com/openimsdk/open-im-server/tree/main/LICENSE).
+Az OpenIM licence az Apache 2.0 licence alá tartozik. A teljes licencszövegért lásd: [LICENSE](https://github.com/KyleYe/open-im-server/tree/main/LICENSE).
 
-Az ebben az [OpenIM](https://github.com/openimsdk/open-im-server) tárolóban az [assets/logo](./assets/logo) és [assets/logo-gif](assets/logo-gif) könyvtárak alatt megjelenő OpenIM logót, beleértve annak változatait és animált változatait, szerzői jogi törvények védik.
+Az ebben az [OpenIM](https://github.com/KyleYe/open-im-server) tárolóban az [assets/logo](./assets/logo) és [assets/logo-gif](assets/logo-gif) könyvtárak alatt megjelenő OpenIM logót, beleértve annak változatait és animált változatait, szerzői jogi törvények védik.
 
 ## 🔮 Köszönjük közreműködőinknek!
 
-<a href="https://github.com/openimsdk/open-im-server/graphs/contributors">
+<a href="https://github.com/KyleYe/open-im-server/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=openimsdk/open-im-server" />
 </a>

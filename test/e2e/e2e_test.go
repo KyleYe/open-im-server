@@ -18,7 +18,7 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/openimsdk/open-im-server/v3/test/e2e/framework/config"
+	"github.com/KyleYe/open-im-server/v3/test/e2e/framework/config"
 )
 
 // handleFlags sets up all flags and parses the command line.

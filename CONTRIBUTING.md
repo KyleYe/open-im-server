@@ -28,10 +28,10 @@
   <a href="docs/contributing/CONTRIBUTING-TR.md">Türkçe</a>
 </p>
 
-This guide will use [openimsdk/open-im-server](https://github.com/openimsdk/open-im-server) as an example to explain in detail how to contribute code to the OpenIM project. We adopt a "one issue, one branch" strategy to ensure each issue corresponds to a dedicated branch for effective code change management.
+This guide will use [openimsdk/open-im-server](https://github.com/KyleYe/open-im-server) as an example to explain in detail how to contribute code to the OpenIM project. We adopt a "one issue, one branch" strategy to ensure each issue corresponds to a dedicated branch for effective code change management.
 
 ### 1. Fork the Repository
-Go to the [openimsdk/open-im-server](https://github.com/openimsdk/open-im-server) GitHub page, click the "Fork" button in the upper right corner to fork the repository to your GitHub account.
+Go to the [openimsdk/open-im-server](https://github.com/KyleYe/open-im-server) GitHub page, click the "Fork" button in the upper right corner to fork the repository to your GitHub account.
 
 ### 2. Clone the Repository
 Clone the repository you forked to your local machine:
@@ -42,7 +42,7 @@ git clone https://github.com/your-username/open-im-server.git
 ### 3. Set Upstream Remote
 Add the original repository as a remote upstream to track updates:
 ```bash
-git remote add upstream https://github.com/openimsdk/open-im-server.git
+git remote add upstream https://github.com/KyleYe/open-im-server.git
 ```
 
 ### 4. Create an Issue
@@ -80,8 +80,8 @@ I have read the CLA Document and I hereby sign the CLA
 
 ### Programming Standards
 Please refer to the following documents for detailed information on Go language programming standards:
-- [Go Coding Standards](https://github.com/openimsdk/open-im-server/blob/main/docs/contrib/go-code.md)
-- [Code Conventions](https://github.com/openimsdk/open-im-server/blob/main/docs/contrib/code-conventions.md)
+- [Go Coding Standards](https://github.com/KyleYe/open-im-server/blob/main/docs/contrib/go-code.md)
+- [Code Conventions](https://github.com/KyleYe/open-im-server/blob/main/docs/contrib/code-conventions.md)
 
 ### Logging Standards
 - **Do not use the standard `log` package**.

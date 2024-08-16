@@ -16,11 +16,11 @@ package user
 
 import (
 	"context"
-	relationtb "github.com/openimsdk/open-im-server/v3/pkg/common/storage/model"
-	"github.com/openimsdk/open-im-server/v3/pkg/rpcclient/notification"
+	relationtb "github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
+	"github.com/KyleYe/open-im-server/v3/pkg/rpcclient/notification"
 
-	"github.com/openimsdk/open-im-server/v3/pkg/common/storage/controller"
-	"github.com/openimsdk/open-im-server/v3/pkg/rpcclient"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/controller"
+	"github.com/KyleYe/open-im-server/v3/pkg/rpcclient"
 	"github.com/openimsdk/protocol/constant"
 	"github.com/openimsdk/protocol/sdkws"
 )

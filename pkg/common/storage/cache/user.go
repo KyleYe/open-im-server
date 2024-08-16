@@ -16,7 +16,7 @@ package cache
 
 import (
 	"context"
-	"github.com/openimsdk/open-im-server/v3/pkg/common/storage/model"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
 )
 
 type UserCache interface {

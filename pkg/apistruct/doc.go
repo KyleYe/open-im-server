@@ -12,4 +12,4 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package apistruct // import "github.com/openimsdk/open-im-server/v3/pkg/apistruct"
+package apistruct // import "github.com/KyleYe/open-im-server/v3/pkg/apistruct"

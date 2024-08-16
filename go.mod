@@ -1,4 +1,4 @@
-module github.com/openimsdk/open-im-server/v3
+module github.com/KyleYe/open-im-server/v3
 
 go 1.21.2
 

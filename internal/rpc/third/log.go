@@ -17,11 +17,11 @@ package third
 import (
 	"context"
 	"crypto/rand"
-	relationtb "github.com/openimsdk/open-im-server/v3/pkg/common/storage/model"
+	relationtb "github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
 	"time"
 
-	"github.com/openimsdk/open-im-server/v3/pkg/authverify"
-	"github.com/openimsdk/open-im-server/v3/pkg/common/servererrs"
+	"github.com/KyleYe/open-im-server/v3/pkg/authverify"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/servererrs"
 	"github.com/openimsdk/protocol/constant"
 	"github.com/openimsdk/protocol/third"
 	"github.com/openimsdk/tools/errs"

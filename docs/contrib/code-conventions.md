@@ -85,4 +85,4 @@ Files within the OpenIM project should adhere to the following rules:
 
 ## Testing conventions
 
-Please refer to [TESTING.md](https://github.com/openimsdk/open-im-server/tree/main/test/readme) document.
+Please refer to [TESTING.md](https://github.com/KyleYe/open-im-server/tree/main/test/readme) document.

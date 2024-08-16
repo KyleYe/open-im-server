@@ -6,15 +6,15 @@
 
 <div align="center">
 
-[![Stars](https://img.shields.io/github/stars/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=ff69b4)](https://github.com/openimsdk/open-im-server/stargazers)
-[![Forks](https://img.shields.io/github/forks/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=blue)](https://github.com/openimsdk/open-im-server/network/members)
+[![Stars](https://img.shields.io/github/stars/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=ff69b4)](https://github.com/KyleYe/open-im-server/stargazers)
+[![Forks](https://img.shields.io/github/forks/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=blue)](https://github.com/KyleYe/open-im-server/network/members)
 [![Codecov](https://img.shields.io/codecov/c/github/openimsdk/open-im-server?style=for-the-badge&logo=codecov&colorB=orange)](https://app.codecov.io/gh/openimsdk/open-im-server)
-[![Go Report Card](https://goreportcard.com/badge/github.com/openimsdk/open-im-server?style=for-the-badge)](https://goreportcard.com/report/github.com/openimsdk/open-im-server)
-[![Go Reference](https://img.shields.io/badge/Go%20Reference-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://pkg.go.dev/github.com/openimsdk/open-im-server/v3)
-[![License](https://img.shields.io/badge/license-Apache--2.0-green?style=for-the-badge)](https://github.com/openimsdk/open-im-server/blob/main/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/KyleYe/open-im-server?style=for-the-badge)](https://goreportcard.com/report/github.com/KyleYe/open-im-server)
+[![Go Reference](https://img.shields.io/badge/Go%20Reference-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://pkg.go.dev/github.com/KyleYe/open-im-server/v3)
+[![License](https://img.shields.io/badge/license-Apache--2.0-green?style=for-the-badge)](https://github.com/KyleYe/open-im-server/blob/main/LICENSE)
 [![Slack](https://img.shields.io/badge/Slack-500%2B-blueviolet?style=for-the-badge&logo=slack&logoColor=white)](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q)
 [![Best Practices](https://img.shields.io/badge/Best%20Practices-purple?style=for-the-badge)](https://www.bestpractices.dev/projects/8045)
-[![Good First Issues](https://img.shields.io/github/issues/openimsdk/open-im-server/good%20first%20issue?style=for-the-badge&logo=github)](https://github.com/openimsdk/open-im-server/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22)
+[![Good First Issues](https://img.shields.io/github/issues/openimsdk/open-im-server/good%20first%20issue?style=for-the-badge&logo=github)](https://github.com/KyleYe/open-im-server/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22)
 [![Language](https://img.shields.io/badge/Language-Go-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://golang.org/)
 
 
@@ -120,39 +120,39 @@ OpenIM — це сервісна платформа, спеціально роз
 
 OpenIM. Наша мета — побудувати спільноту з відкритим кодом найвищого рівня. У нас є набір стандартів у [репозиторії спільноти](https://github.com/OpenIMSDK/community).
 
-Якщо ви хочете внести свій внесок у це сховище Open-IM-Server, прочитайте нашу [документацію для учасників](https://github.com/openimsdk/open-im-server/blob/main/CONTRIBUTING.md).
+Якщо ви хочете внести свій внесок у це сховище Open-IM-Server, прочитайте нашу [документацію для учасників](https://github.com/KyleYe/open-im-server/blob/main/CONTRIBUTING.md).
 
-Перш ніж почати, переконайтеся, що ваші зміни затребувані. Найкраще для цього створити [нове обговорення](https://github.com/openimsdk/open-im-server/discussions/new/choose) АБО [Нездійснене спілкування](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q)або, якщо ви виявите проблему, спершу [повідомити про неї](https://github.com/openimsdk/open-im-server/issues/new/choose).
+Перш ніж почати, переконайтеся, що ваші зміни затребувані. Найкраще для цього створити [нове обговорення](https://github.com/KyleYe/open-im-server/discussions/new/choose) АБО [Нездійснене спілкування](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q)або, якщо ви виявите проблему, спершу [повідомити про неї](https://github.com/KyleYe/open-im-server/issues/new/choose).
 
-- [Довідка щодо API OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/api.md)
-- [Ведення журналу OpenIM Bash](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/bash-log.md)
-- [Дії OpenIM CI/CD](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/cicd-actions.md)
-- [Положення про код OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/code-conventions.md)
-- [Інструкції щодо фіксації OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/commit.md)
-- [Посібник з розробки OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/development.md)
-- [Структура каталогу OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/directory.md)
-- [Налаштування середовища OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/environment.md)
-- [Довідка про код помилки OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/error-code.md)
-- [Робочий процес OpenIM Git](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/git-workflow.md)
-- [Посібник із вибору OpenIM Git Cherry](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/gitcherry-pick.md)
-- [Робочий процес OpenIM GitHub](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/github-workflow.md)
-- [Стандарти коду OpenIM Go](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/go-code.md)
-- [Інструкції щодо зображення OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/images.md)
-- [Початкова конфігурація OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/init-config.md)
-- [Посібник із встановлення OpenIM Docker](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/install-docker.md)
-- [Встановлення системи OpenIM OpenIM Linux](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/install-openim-linux-system.md)
-- [Посібник із розробки OpenIM Linux](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/linux-development.md)
-- [Локальний посібник із дій OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/local-actions.md)
-- [Положення про протоколювання OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/logging.md)
-- [Офлайн-розгортання OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/offline-deployment.md)
-- [Інструменти OpenIM Protoc](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/protoc-tools.md)
-- [Посібник з тестування OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/test.md)
-- [Утиліта OpenIM Go](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/util-go.md)
-- [Утиліти OpenIM Makefile](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/util-makefile.md)
-- [Утиліти сценарію OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/util-scripts.md)
-- [Версії OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/version.md)
-- [Керування серверною частиною та моніторинг розгортання](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/prometheus-grafana.md)
-- [Посібник із розгортання розробника Mac для OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/mac-developer-deployment-guide.md)
+- [Довідка щодо API OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/api.md)
+- [Ведення журналу OpenIM Bash](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/bash-log.md)
+- [Дії OpenIM CI/CD](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/cicd-actions.md)
+- [Положення про код OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/code-conventions.md)
+- [Інструкції щодо фіксації OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/commit.md)
+- [Посібник з розробки OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/development.md)
+- [Структура каталогу OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/directory.md)
+- [Налаштування середовища OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/environment.md)
+- [Довідка про код помилки OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/error-code.md)
+- [Робочий процес OpenIM Git](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/git-workflow.md)
+- [Посібник із вибору OpenIM Git Cherry](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/gitcherry-pick.md)
+- [Робочий процес OpenIM GitHub](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/github-workflow.md)
+- [Стандарти коду OpenIM Go](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/go-code.md)
+- [Інструкції щодо зображення OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/images.md)
+- [Початкова конфігурація OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/init-config.md)
+- [Посібник із встановлення OpenIM Docker](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/install-docker.md)
+- [Встановлення системи OpenIM OpenIM Linux](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/install-openim-linux-system.md)
+- [Посібник із розробки OpenIM Linux](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/linux-development.md)
+- [Локальний посібник із дій OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/local-actions.md)
+- [Положення про протоколювання OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/logging.md)
+- [Офлайн-розгортання OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/offline-deployment.md)
+- [Інструменти OpenIM Protoc](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/protoc-tools.md)
+- [Посібник з тестування OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/test.md)
+- [Утиліта OpenIM Go](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/util-go.md)
+- [Утиліти OpenIM Makefile](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/util-makefile.md)
+- [Утиліти сценарію OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/util-scripts.md)
+- [Версії OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/version.md)
+- [Керування серверною частиною та моніторинг розгортання](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/prometheus-grafana.md)
+- [Посібник із розгортання розробника Mac для OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/mac-developer-deployment-guide.md)
 
 
 ## :busts_in_silhouette: Спільнота
@@ -168,20 +168,20 @@ OpenIM. Наша мета — побудувати спільноту з від�
 
 Наша конференція знаходиться в [OpenIM Slack](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q) 🎯, тоді ви можете шукати конвеєр Open-IM-Server, щоб приєднатися.
 
-Ми робимо нотатки про кожну [двотижневу зустріч](https://github.com/orgs/OpenIMSDK/discussions/categories/meeting)в [обговореннях GitHub](https://github.com/openimsdk/open-im-server/discussions/categories/meeting). Наші історичні нотатки зустрічей, а також повтори зустрічей доступні в[Google Docs :bookmark_tabs:](https://docs.google.com/document/d/1nx8MDpuG74NASx081JcCpxPgDITNTpIIos0DS6Vr9GU/edit?usp=sharing).
+Ми робимо нотатки про кожну [двотижневу зустріч](https://github.com/orgs/OpenIMSDK/discussions/categories/meeting)в [обговореннях GitHub](https://github.com/KyleYe/open-im-server/discussions/categories/meeting). Наші історичні нотатки зустрічей, а також повтори зустрічей доступні в[Google Docs :bookmark_tabs:](https://docs.google.com/document/d/1nx8MDpuG74NASx081JcCpxPgDITNTpIIos0DS6Vr9GU/edit?usp=sharing).
 
 ## :eyes: Хто використовує OpenIM
 
-Перегляньте нашу сторінку [тематичні дослідження користувачів](https://github.com/OpenIMSDK/community/blob/main/ADOPTERS.md), щоб отримати список користувачів проекту. Не соромтеся залишити [📝коментар](https://github.com/openimsdk/open-im-server/issues/379)і поділитися своїм випадком використання.
+Перегляньте нашу сторінку [тематичні дослідження користувачів](https://github.com/OpenIMSDK/community/blob/main/ADOPTERS.md), щоб отримати список користувачів проекту. Не соромтеся залишити [📝коментар](https://github.com/KyleYe/open-im-server/issues/379)і поділитися своїм випадком використання.
 
 ## :page_facing_up: Ліцензія
 
-OpenIM ліцензовано за ліцензією Apache 2.0. Див. [ЛІЦЕНЗІЯ](https://github.com/openimsdk/open-im-server/tree/main/LICENSE) для повного тексту ліцензії.
+OpenIM ліцензовано за ліцензією Apache 2.0. Див. [ЛІЦЕНЗІЯ](https://github.com/KyleYe/open-im-server/tree/main/LICENSE) для повного тексту ліцензії.
 
-Логотип OpenIM, включаючи його варіації та анімовані версії, що відображаються в цьому сховищі[OpenIM](https://github.com/openimsdk/open-im-server)у каталогах [assets/logo](./assets/logo)і [assets/logo-gif](assets/logo-gif) , захищені законами про авторське право.
+Логотип OpenIM, включаючи його варіації та анімовані версії, що відображаються в цьому сховищі[OpenIM](https://github.com/KyleYe/open-im-server)у каталогах [assets/logo](./assets/logo)і [assets/logo-gif](assets/logo-gif) , захищені законами про авторське право.
 
 ## 🔮 Дякуємо нашим дописувачам!
 
-<a href="https://github.com/openimsdk/open-im-server/graphs/contributors">
+<a href="https://github.com/KyleYe/open-im-server/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=openimsdk/open-im-server" />
 </a>

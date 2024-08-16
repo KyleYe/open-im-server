@@ -323,7 +323,7 @@ linters-settings:
   goimports:
     # put imports beginning with prefix after 3rd-party packages;
     # it's a comma-separated list of prefixes
-    local-prefixes: github.com/openimsdk/open-im-server
+    local-prefixes: github.com/KyleYe/open-im-server
 
   gomnd:
     # List of enabled checks, see https://github.com/tommy-muehle/go-mnd/#checks for description.
@@ -463,9 +463,9 @@ linters-settings:
           - pkg: github.com/OpenIMSDK
             desc: "The OpenIM organization has been replaced with lowercase, please do not use uppercase organization name, you will use openimsdk"
           - pkg: log
-            desc: "We have a wrapped log package at openim, we recommend you to use our wrapped log package, https://github.com/openimsdk/open-im-server/blob/main/docs/contrib/logging.md"
+            desc: "We have a wrapped log package at openim, we recommend you to use our wrapped log package, https://github.com/KyleYe/open-im-server/blob/main/docs/contrib/logging.md"
           - pkg: errors
-            desc: "We have a wrapped errors package at openim, we recommend you to use our wrapped errors package, https://github.com/openimsdk/open-im-server/blob/main/docs/contrib/error-code.md"
+            desc: "We have a wrapped errors package at openim, we recommend you to use our wrapped errors package, https://github.com/KyleYe/open-im-server/blob/main/docs/contrib/error-code.md"
 
   importas:
     # if set to `true`, force to use alias.

@@ -17,8 +17,8 @@ package cmd
 import (
 	"context"
 
-	"github.com/openimsdk/open-im-server/v3/internal/tools"
-	"github.com/openimsdk/open-im-server/v3/version"
+	"github.com/KyleYe/open-im-server/v3/internal/tools"
+	"github.com/KyleYe/open-im-server/v3/version"
 	"github.com/openimsdk/tools/system/program"
 	"github.com/spf13/cobra"
 )

@@ -15,8 +15,8 @@
 package localcache
 
 import (
-	"github.com/openimsdk/open-im-server/v3/pkg/common/config"
-	"github.com/openimsdk/open-im-server/v3/pkg/common/storage/cache/cachekey"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache/cachekey"
 	"strings"
 	"sync"
 )

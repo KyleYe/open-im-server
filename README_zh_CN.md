@@ -6,15 +6,15 @@
 
 <div align="center">
 
-[![Stars](https://img.shields.io/github/stars/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=ff69b4)](https://github.com/openimsdk/open-im-server/stargazers)
-[![Forks](https://img.shields.io/github/forks/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=blue)](https://github.com/openimsdk/open-im-server/network/members)
+[![Stars](https://img.shields.io/github/stars/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=ff69b4)](https://github.com/KyleYe/open-im-server/stargazers)
+[![Forks](https://img.shields.io/github/forks/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=blue)](https://github.com/KyleYe/open-im-server/network/members)
 [![Codecov](https://img.shields.io/codecov/c/github/openimsdk/open-im-server?style=for-the-badge&logo=codecov&colorB=orange)](https://app.codecov.io/gh/openimsdk/open-im-server)
-[![Go Report Card](https://goreportcard.com/badge/github.com/openimsdk/open-im-server?style=for-the-badge)](https://goreportcard.com/report/github.com/openimsdk/open-im-server)
-[![Go Reference](https://img.shields.io/badge/Go%20Reference-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://pkg.go.dev/github.com/openimsdk/open-im-server/v3)
-[![License](https://img.shields.io/badge/license-Apache--2.0-green?style=for-the-badge)](https://github.com/openimsdk/open-im-server/blob/main/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/KyleYe/open-im-server?style=for-the-badge)](https://goreportcard.com/report/github.com/KyleYe/open-im-server)
+[![Go Reference](https://img.shields.io/badge/Go%20Reference-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://pkg.go.dev/github.com/KyleYe/open-im-server/v3)
+[![License](https://img.shields.io/badge/license-Apache--2.0-green?style=for-the-badge)](https://github.com/KyleYe/open-im-server/blob/main/LICENSE)
 [![Slack](https://img.shields.io/badge/Slack-500%2B-blueviolet?style=for-the-badge&logo=slack&logoColor=white)](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q)
 [![Best Practices](https://img.shields.io/badge/Best%20Practices-purple?style=for-the-badge)](https://www.bestpractices.dev/projects/8045)
-[![Good First Issues](https://img.shields.io/github/issues/openimsdk/open-im-server/good%20first%20issue?style=for-the-badge&logo=github)](https://github.com/openimsdk/open-im-server/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22)
+[![Good First Issues](https://img.shields.io/github/issues/openimsdk/open-im-server/good%20first%20issue?style=for-the-badge&logo=github)](https://github.com/KyleYe/open-im-server/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22)
 [![Language](https://img.shields.io/badge/Language-Go-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://golang.org/)
 
 
@@ -119,24 +119,24 @@
 ## :link: 相关链接
 
   + **[开发手册](https://docs.openim.io/)**
-  + **[更新日志](https://github.com/openimsdk/open-im-server/blob/main/CHANGELOG.md)**
+  + **[更新日志](https://github.com/KyleYe/open-im-server/blob/main/CHANGELOG.md)**
 
 ## :writing_hand: 如何贡献
 
-我们欢迎任何形式的贡献！在提交 Pull Request 之前，请确保阅读我们的[贡献者文档](https://github.com/openimsdk/open-im-server/blob/main/CONTRIBUTING.md)
+我们欢迎任何形式的贡献！在提交 Pull Request 之前，请确保阅读我们的[贡献者文档](https://github.com/KyleYe/open-im-server/blob/main/CONTRIBUTING.md)
 
-  + **[报告 Bug](https://github.com/openimsdk/open-im-server/issues/new?assignees=&labels=bug&template=bug_report.md&title=)**
-  + **[提出新特性](https://github.com/openimsdk/open-im-server/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=)**
-  + **[提交 Pull Request](https://github.com/openimsdk/open-im-server/pulls)**
+  + **[报告 Bug](https://github.com/KyleYe/open-im-server/issues/new?assignees=&labels=bug&template=bug_report.md&title=)**
+  + **[提出新特性](https://github.com/KyleYe/open-im-server/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=)**
+  + **[提交 Pull Request](https://github.com/KyleYe/open-im-server/pulls)**
 
 感谢您的贡献，一起来打造强大的即时通讯解决方案！
 
 ## :closed_book: 许可证
 
-  OpenIMSDK 在 Apache License 2.0 许可下可用。查看[LICENSE 文件](https://github.com/openimsdk/open-im-server/blob/main/LICENSE)了解更多信息。
+  OpenIMSDK 在 Apache License 2.0 许可下可用。查看[LICENSE 文件](https://github.com/KyleYe/open-im-server/blob/main/LICENSE)了解更多信息。
 
 ## 🔮 Thanks to our contributors!
 
-<a href="https://github.com/openimsdk/open-im-server/graphs/contributors">
+<a href="https://github.com/KyleYe/open-im-server/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=openimsdk/open-im-server" />
 </a>

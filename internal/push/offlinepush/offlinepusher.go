@@ -16,13 +16,13 @@ package offlinepush
 
 import (
 	"context"
-	"github.com/openimsdk/open-im-server/v3/internal/push/offlinepush/dummy"
-	"github.com/openimsdk/open-im-server/v3/internal/push/offlinepush/fcm"
-	"github.com/openimsdk/open-im-server/v3/internal/push/offlinepush/getui"
-	"github.com/openimsdk/open-im-server/v3/internal/push/offlinepush/jpush"
-	"github.com/openimsdk/open-im-server/v3/internal/push/offlinepush/options"
-	"github.com/openimsdk/open-im-server/v3/pkg/common/config"
-	"github.com/openimsdk/open-im-server/v3/pkg/common/storage/cache"
+	"github.com/KyleYe/open-im-server/v3/internal/push/offlinepush/dummy"
+	"github.com/KyleYe/open-im-server/v3/internal/push/offlinepush/fcm"
+	"github.com/KyleYe/open-im-server/v3/internal/push/offlinepush/getui"
+	"github.com/KyleYe/open-im-server/v3/internal/push/offlinepush/jpush"
+	"github.com/KyleYe/open-im-server/v3/internal/push/offlinepush/options"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/cache"
 )
 
 const (

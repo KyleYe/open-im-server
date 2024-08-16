@@ -583,8 +583,8 @@ func SIGTERMExit() {
 import (
 	_ "net/webhook/pprof"
 
-	"github.com/openimsdk/open-im-server/v3/pkg/common/cmd"
-	util "github.com/openimsdk/open-im-server/v3/pkg/util/genutil"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/cmd"
+	util "github.com/KyleYe/open-im-server/v3/pkg/util/genutil"
 )
 
 func main() {
@@ -1305,11 +1305,11 @@ make lint
 
 **In CI/CD, Check the Github Actions status code below after you submit the code directly**
 
-[![OpenIM golangci-lint](https://github.com/openimsdk/open-im-server/actions/workflows/golangci-lint.yml/badge.svg)](https://github.com/openimsdk/open-im-server/actions/workflows/golangci-lint.yml)
+[![OpenIM golangci-lint](https://github.com/KyleYe/open-im-server/actions/workflows/golangci-lint.yml/badge.svg)](https://github.com/KyleYe/open-im-server/actions/workflows/golangci-lint.yml)
 
 golangci lint can select the types of tools, refer to the official documentation: [https://golangci-lint.run/usage/linters/](https://golangci-lint.run/usage/linters/)
 
-The types of comments we currently use include: [https://github.com/openimsdk/open-im-server/blob/main/.golangci.yml](https://github.com/openimsdk/open-im-server/blob/main/.golangci.yml) the `linters.enable` field in the file.
+The types of comments we currently use include: [https://github.com/KyleYe/open-im-server/blob/main/.golangci.yml](https://github.com/KyleYe/open-im-server/blob/main/.golangci.yml) the `linters.enable` field in the file.
 
 e.g:
 

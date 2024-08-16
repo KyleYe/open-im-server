@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/openimsdk/open-im-server/v3/pkg/common/storage/database"
-	"github.com/openimsdk/open-im-server/v3/pkg/common/storage/model"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/database"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
 	"github.com/openimsdk/tools/utils/datautil"
 
 	"github.com/openimsdk/protocol/constant"

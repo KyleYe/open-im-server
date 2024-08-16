@@ -17,8 +17,8 @@ package user
 import (
 	"fmt"
 
-	gettoken "github.com/openimsdk/open-im-server/v3/test/e2e/api/token"
-	"github.com/openimsdk/open-im-server/v3/test/e2e/framework/config"
+	gettoken "github.com/KyleYe/open-im-server/v3/test/e2e/api/token"
+	"github.com/KyleYe/open-im-server/v3/test/e2e/framework/config"
 )
 
 // UserInfoRequest represents a request to get or update user information.

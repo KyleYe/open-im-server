@@ -5,7 +5,7 @@ OpenIM supports a variety of cluster deployment methods, including but not limit
 Various contributors, as well as previous official releases, have provided some referenceable solutions:
 
 + [k8s-jenkins Repository](https://github.com/OpenIMSDK/k8s-jenkins)
-+ [open-im-server-k8s-deploy Repository](https://github.com/openimsdk/open-im-server-k8s-deploy)
++ [open-im-server-k8s-deploy Repository](https://github.com/KyleYe/open-im-server-k8s-deploy)
 + [openim-charts Repository](https://github.com/OpenIMSDK/openim-charts)
 + [deploy-openim Repository](https://github.com/showurl/deploy-openim)
 
@@ -106,7 +106,7 @@ $ helm repo add brigade https://openimsdk.github.io/openim-charts
 
 ### OpenIM Image Strategy
 
-Automated offerings include aliyun, ghcr, docker hub: [Image Documentation](https://github.com/openimsdk/open-im-server/blob/main/docs/contrib/images.md)
+Automated offerings include aliyun, ghcr, docker hub: [Image Documentation](https://github.com/KyleYe/open-im-server/blob/main/docs/contrib/images.md)
 
 **Local Test Build Method:**
 
@@ -114,7 +114,7 @@ Automated offerings include aliyun, ghcr, docker hub: [Image Documentation](http
 $ make image
 ```
 
-> This command assists in quickly building the required images locally. For a detailed build strategy, refer to the [Build Documentation](https://github.com/openimsdk/open-im-server/blob/main/build/README.md).
+> This command assists in quickly building the required images locally. For a detailed build strategy, refer to the [Build Documentation](https://github.com/KyleYe/open-im-server/blob/main/build/README.md).
 
 ## Installation
 

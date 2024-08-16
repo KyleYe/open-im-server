@@ -12,4 +12,4 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package model // import "github.com/openimsdk/open-im-server/v3/pkg/common/storage/model/relation"
+package model // import "github.com/KyleYe/open-im-server/v3/pkg/common/storage/model/relation"

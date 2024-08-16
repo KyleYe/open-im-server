@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/openimsdk/open-im-server/v3/tools/url2im/pkg"
+	"github.com/KyleYe/open-im-server/v3/tools/url2im/pkg"
 )
 
 /*take.txt

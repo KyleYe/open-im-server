@@ -15,7 +15,7 @@
 package convert
 
 import (
-	"github.com/openimsdk/open-im-server/v3/pkg/common/storage/model"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
 	"time"
 
 	pbgroup "github.com/openimsdk/protocol/group"

@@ -17,8 +17,8 @@ package e2e
 import (
 	"testing"
 
-	gettoken "github.com/openimsdk/open-im-server/v3/test/e2e/api/token"
-	"github.com/openimsdk/open-im-server/v3/test/e2e/api/user"
+	gettoken "github.com/KyleYe/open-im-server/v3/test/e2e/api/token"
+	"github.com/KyleYe/open-im-server/v3/test/e2e/api/user"
 )
 
 // RunE2ETests checks configuration parameters (specified through flags) and then runs
@@ -35,7 +35,7 @@ func RunE2ETests(t *testing.T) {
 	_ = user.GetUsersInfo(token, []string{"user1", "user2"})
 
 	// Example of updating user info
-	_ = user.UpdateUserInfo(token, "user1", "NewNickname", "https://github.com/openimsdk/open-im-server/blob/main/assets/logo/openim-logo.png")
+	_ = user.UpdateUserInfo(token, "user1", "NewNickname", "https://github.com/KyleYe/open-im-server/blob/main/assets/logo/openim-logo.png")
 
 	// Example of getting users' online status
 	_ = user.GetUsersOnlineStatus(token, []string{"user1", "user2"})

@@ -23,7 +23,7 @@ import (
 // Define a function to print important link information
 func printLinks() {
 	blue := color.New(color.FgBlue).SprintFunc()
-	fmt.Printf("OpenIM Github: %s\n", blue("https://github.com/OpenIMSDK/Open-IM-Server"))
+	fmt.Printf("OpenIM Github: %s\n", blue("https://github.com/KyleYe/open-im-server"))
 	fmt.Printf("Slack Invitation: %s\n", blue("https://openimsdk.slack.com"))
 	fmt.Printf("Follow Twitter: %s\n", blue("https://twitter.com/founder_im63606"))
 }

@@ -6,15 +6,15 @@
 
 <div align="center">
 
-[![Stars](https://img.shields.io/github/stars/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=ff69b4)](https://github.com/openimsdk/open-im-server/stargazers)
-[![Forks](https://img.shields.io/github/forks/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=blue)](https://github.com/openimsdk/open-im-server/network/members)
+[![Stars](https://img.shields.io/github/stars/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=ff69b4)](https://github.com/KyleYe/open-im-server/stargazers)
+[![Forks](https://img.shields.io/github/forks/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=blue)](https://github.com/KyleYe/open-im-server/network/members)
 [![Codecov](https://img.shields.io/codecov/c/github/openimsdk/open-im-server?style=for-the-badge&logo=codecov&colorB=orange)](https://app.codecov.io/gh/openimsdk/open-im-server)
-[![Go Report Card](https://goreportcard.com/badge/github.com/openimsdk/open-im-server?style=for-the-badge)](https://goreportcard.com/report/github.com/openimsdk/open-im-server)
-[![Go Reference](https://img.shields.io/badge/Go%20Reference-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://pkg.go.dev/github.com/openimsdk/open-im-server/v3)
-[![License](https://img.shields.io/badge/license-Apache--2.0-green?style=for-the-badge)](https://github.com/openimsdk/open-im-server/blob/main/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/KyleYe/open-im-server?style=for-the-badge)](https://goreportcard.com/report/github.com/KyleYe/open-im-server)
+[![Go Reference](https://img.shields.io/badge/Go%20Reference-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://pkg.go.dev/github.com/KyleYe/open-im-server/v3)
+[![License](https://img.shields.io/badge/license-Apache--2.0-green?style=for-the-badge)](https://github.com/KyleYe/open-im-server/blob/main/LICENSE)
 [![Slack](https://img.shields.io/badge/Slack-500%2B-blueviolet?style=for-the-badge&logo=slack&logoColor=white)](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q)
 [![Best Practices](https://img.shields.io/badge/Best%20Practices-purple?style=for-the-badge)](https://www.bestpractices.dev/projects/8045)
-[![Good First Issues](https://img.shields.io/github/issues/openimsdk/open-im-server/good%20first%20issue?style=for-the-badge&logo=github)](https://github.com/openimsdk/open-im-server/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22)
+[![Good First Issues](https://img.shields.io/github/issues/openimsdk/open-im-server/good%20first%20issue?style=for-the-badge&logo=github)](https://github.com/KyleYe/open-im-server/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22)
 [![Language](https://img.shields.io/badge/Language-Go-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://golang.org/)
 
 
@@ -123,39 +123,39 @@ Open-IM-Server의 기능의 핵심으로 들어가 우리의 아키텍처 다이
 
 OpenIM의 목표는 최상위 수준의 오픈 소스 커뮤니티를 구축하는 것입니다. 우리는 [커뮤니티 리포지토리에서](https://github.com/OpenIMSDK/community) 일련의 표준을 가지고 있습니다.
 
-이 Open-IM-Server 리포지토리에 기여하고 싶다면, 우리의 [기여자 문서](https://github.com/openimsdk/open-im-server/blob/main/CONTRIBUTING.md)를 읽어주세요.
+이 Open-IM-Server 리포지토리에 기여하고 싶다면, 우리의 [기여자 문서](https://github.com/KyleYe/open-im-server/blob/main/CONTRIBUTING.md)를 읽어주세요.
 
-시작하기 전에, 변경 사항이 필요한지 확인해 주세요. 가장 좋은 방법은 [새로운 토론](https://github.com/openimsdk/open-im-server/discussions/new/choose)을 생성하거나 [Slack 통신을](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q) 하거나, 문제를 발견했다면 먼저 [보고](https://github.com/openimsdk/open-im-server/issues/new/choose)하는 것입니다.
+시작하기 전에, 변경 사항이 필요한지 확인해 주세요. 가장 좋은 방법은 [새로운 토론](https://github.com/KyleYe/open-im-server/discussions/new/choose)을 생성하거나 [Slack 통신을](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q) 하거나, 문제를 발견했다면 먼저 [보고](https://github.com/KyleYe/open-im-server/issues/new/choose)하는 것입니다.
 
-- [OpenIM API 참조](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/api.md)
-- [OpenIM Bash 로깅](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/bash-log.md)
-- [OpenIM CI/CD 액션](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/cicd-actions.md)
-- [OpenIM 코드 규칙](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/code-conventions.md)
-- [OpenIM 커밋 가이드라인](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/commit.md)
-- [OpenIM 개발 가이드](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/development.md)
-- [OpenIM 디렉토리 구조](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/directory.md)
-- [OpenIM 환경 설정](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/environment.md)
-- [OpenIM 오류 코드 참조](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/error-code.md)
-- [OpenIM Git 작업 흐름](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/git-workflow.md)
-- [OpenIM Git 체리 픽 가이드](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/gitcherry-pick.md)
-- [OpenIM GitHub 작업 흐름](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/github-workflow.md)
-- [OpenIM Go 코드 표준](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/go-code.md)
-- [OpenIM 이미지 가이드라인](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/images.md)
-- [OpenIM 초기 구성](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/init-config.md)
-- [OpenIM docker 설치 가이드](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/install-docker.md)
-- [OpenIM OpenIM Linux 설치](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/install-openim-linux-system.md)
-- [OpenIM Linux 개발 가이드](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/linux-development.md)
-- [OpenIM 로컬 액션 가이드](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/local-actions.md)
-- [OpenIM 로깅 규칙](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/logging.md)
-- [OpenIM 오프라인 배포](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/offline-deployment.md)
-- [OpenIM Protoc 도구](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/protoc-tools.md)
-- [OpenIM 테스트 가이드](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/test.md)
-- [OpenIM 유틸리티 Go](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/util-go.md)
-- [OpenIM 메이크파일 유틸리티](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/util-makefile.md)
-- [OpenIM 스크립트 유틸리티](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/util-scripts.md)
-- [OpenIM 버전 관리](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/version.md)
-- [백엔드 관리 및 모니터 배포](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/prometheus-grafana.md)
-- [맥 개발자 배포 가이드 for OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/mac-developer-deployment-guide.md)
+- [OpenIM API 참조](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/api.md)
+- [OpenIM Bash 로깅](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/bash-log.md)
+- [OpenIM CI/CD 액션](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/cicd-actions.md)
+- [OpenIM 코드 규칙](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/code-conventions.md)
+- [OpenIM 커밋 가이드라인](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/commit.md)
+- [OpenIM 개발 가이드](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/development.md)
+- [OpenIM 디렉토리 구조](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/directory.md)
+- [OpenIM 환경 설정](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/environment.md)
+- [OpenIM 오류 코드 참조](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/error-code.md)
+- [OpenIM Git 작업 흐름](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/git-workflow.md)
+- [OpenIM Git 체리 픽 가이드](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/gitcherry-pick.md)
+- [OpenIM GitHub 작업 흐름](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/github-workflow.md)
+- [OpenIM Go 코드 표준](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/go-code.md)
+- [OpenIM 이미지 가이드라인](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/images.md)
+- [OpenIM 초기 구성](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/init-config.md)
+- [OpenIM docker 설치 가이드](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/install-docker.md)
+- [OpenIM OpenIM Linux 설치](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/install-openim-linux-system.md)
+- [OpenIM Linux 개발 가이드](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/linux-development.md)
+- [OpenIM 로컬 액션 가이드](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/local-actions.md)
+- [OpenIM 로깅 규칙](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/logging.md)
+- [OpenIM 오프라인 배포](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/offline-deployment.md)
+- [OpenIM Protoc 도구](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/protoc-tools.md)
+- [OpenIM 테스트 가이드](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/test.md)
+- [OpenIM 유틸리티 Go](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/util-go.md)
+- [OpenIM 메이크파일 유틸리티](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/util-makefile.md)
+- [OpenIM 스크립트 유틸리티](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/util-scripts.md)
+- [OpenIM 버전 관리](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/version.md)
+- [백엔드 관리 및 모니터 배포](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/prometheus-grafana.md)
+- [맥 개발자 배포 가이드 for OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/mac-developer-deployment-guide.md)
 
 
 ## :busts_in_silhouette: 커뮤니티
@@ -171,22 +171,22 @@ OpenIM의 목표는 최상위 수준의 오픈 소스 커뮤니티를 구축하�
 
 우리의 회의는 [OpenIM Slack](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q) 🎯에서 이루어지며, Open-IM-Server 파이프라인을 검색하여 참여할 수 있습니다.
 
-우리는 격주 회의의 메모를 [GitHub 토론](https://github.com/openimsdk/open-im-server/discussions/categories/meeting)에서 기록하며, 우리의 역사적 [회의](https://github.com/orgs/OpenIMSDK/discussions/categories/meeting) 노트와 회의 재생은 [Google Docs 📑](https://docs.google.com/document/d/1nx8MDpuG74NASx081JcCpxPgDITNTpIIos0DS6Vr9GU/edit?usp=sharing)에서 이용할 수 있습니다.
+우리는 격주 회의의 메모를 [GitHub 토론](https://github.com/KyleYe/open-im-server/discussions/categories/meeting)에서 기록하며, 우리의 역사적 [회의](https://github.com/orgs/OpenIMSDK/discussions/categories/meeting) 노트와 회의 재생은 [Google Docs 📑](https://docs.google.com/document/d/1nx8MDpuG74NASx081JcCpxPgDITNTpIIos0DS6Vr9GU/edit?usp=sharing)에서 이용할 수 있습니다.
 
 
 ## :eyes: OpenIM을 사용하는 사람들
 
-프로젝트 사용자 목록을 위한 우리의 [사용자 사례 연구](https://github.com/OpenIMSDK/community/blob/main/ADOPTERS.md) 페이지를 확인하세요. 사용 사례를 공유하고 싶다면 주저하지 말고 [📝코멘트](https://github.com/openimsdk/open-im-server/issues/379)를 남겨주세요.
+프로젝트 사용자 목록을 위한 우리의 [사용자 사례 연구](https://github.com/OpenIMSDK/community/blob/main/ADOPTERS.md) 페이지를 확인하세요. 사용 사례를 공유하고 싶다면 주저하지 말고 [📝코멘트](https://github.com/KyleYe/open-im-server/issues/379)를 남겨주세요.
 
 ## :page_facing_up: 라이선스
 
-OpenIM은 Apache 2.0 라이선스에 따라 라이선스가 부여됩니다. 전체 라이선스 텍스트는 [LICENSE](https://github.com/openimsdk/open-im-server/tree/main/LICENSE)에서 확인할 수 있습니다.
+OpenIM은 Apache 2.0 라이선스에 따라 라이선스가 부여됩니다. 전체 라이선스 텍스트는 [LICENSE](https://github.com/KyleYe/open-im-server/tree/main/LICENSE)에서 확인할 수 있습니다.
 
-이 리포지토리 [OpenIM](https://github.com/openimsdk/open-im-server)에 표시된 OpenIM 로고, 그 변형 및 애니메이션 버전은 [assets/logo](../../assets/logo) 및 [assets/logo-gif](../../assets/logo-gif) 디렉토리 아래에 있으며, 저작권 법에 의해 보호됩니다.
+이 리포지토리 [OpenIM](https://github.com/KyleYe/open-im-server)에 표시된 OpenIM 로고, 그 변형 및 애니메이션 버전은 [assets/logo](../../assets/logo) 및 [assets/logo-gif](../../assets/logo-gif) 디렉토리 아래에 있으며, 저작권 법에 의해 보호됩니다.
 
 
 ## 🔮 우리의 기여자들에게 감사합니다!
 
-<a href="https://github.com/openimsdk/open-im-server/graphs/contributors">
+<a href="https://github.com/KyleYe/open-im-server/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=openimsdk/open-im-server" />
 </a>

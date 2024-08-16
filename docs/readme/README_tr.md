@@ -6,15 +6,15 @@
 
 <div align="center">
 
-[![Stars](https://img.shields.io/github/stars/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=ff69b4)](https://github.com/openimsdk/open-im-server/stargazers)
-[![Forks](https://img.shields.io/github/forks/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=blue)](https://github.com/openimsdk/open-im-server/network/members)
+[![Stars](https://img.shields.io/github/stars/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=ff69b4)](https://github.com/KyleYe/open-im-server/stargazers)
+[![Forks](https://img.shields.io/github/forks/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=blue)](https://github.com/KyleYe/open-im-server/network/members)
 [![Codecov](https://img.shields.io/codecov/c/github/openimsdk/open-im-server?style=for-the-badge&logo=codecov&colorB=orange)](https://app.codecov.io/gh/openimsdk/open-im-server)
-[![Go Report Card](https://goreportcard.com/badge/github.com/openimsdk/open-im-server?style=for-the-badge)](https://goreportcard.com/report/github.com/openimsdk/open-im-server)
-[![Go Reference](https://img.shields.io/badge/Go%20Reference-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://pkg.go.dev/github.com/openimsdk/open-im-server/v3)
-[![License](https://img.shields.io/badge/license-Apache--2.0-green?style=for-the-badge)](https://github.com/openimsdk/open-im-server/blob/main/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/KyleYe/open-im-server?style=for-the-badge)](https://goreportcard.com/report/github.com/KyleYe/open-im-server)
+[![Go Reference](https://img.shields.io/badge/Go%20Reference-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://pkg.go.dev/github.com/KyleYe/open-im-server/v3)
+[![License](https://img.shields.io/badge/license-Apache--2.0-green?style=for-the-badge)](https://github.com/KyleYe/open-im-server/blob/main/LICENSE)
 [![Slack](https://img.shields.io/badge/Slack-500%2B-blueviolet?style=for-the-badge&logo=slack&logoColor=white)](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q)
 [![Best Practices](https://img.shields.io/badge/Best%20Practices-purple?style=for-the-badge)](https://www.bestpractices.dev/projects/8045)
-[![Good First Issues](https://img.shields.io/github/issues/openimsdk/open-im-server/good%20first%20issue?style=for-the-badge&logo=github)](https://github.com/openimsdk/open-im-server/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22)
+[![Good First Issues](https://img.shields.io/github/issues/openimsdk/open-im-server/good%20first%20issue?style=for-the-badge&logo=github)](https://github.com/KyleYe/open-im-server/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22)
 [![Language](https://img.shields.io/badge/Language-Go-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://golang.org/)
 
 
@@ -122,39 +122,39 @@ Birçok platformu destekliyoruz. Web tarafında hızlı deneyim için adresler �
 
 OpenIM Amacımız, üst düzey bir açık kaynak topluluğu oluşturmaktır. [Topluluk deposunda](https://github.com/OpenIMSDK/community) bir dizi standartımız var.
 
-Bu Open-IM-Server deposuna katkıda bulunmak istiyorsanız, lütfen katkıda bulunanlar için [dokümantasyonumuzu](https://github.com/openimsdk/open-im-server/blob/main/CONTRIBUTING.md) okuyun.
+Bu Open-IM-Server deposuna katkıda bulunmak istiyorsanız, lütfen katkıda bulunanlar için [dokümantasyonumuzu](https://github.com/KyleYe/open-im-server/blob/main/CONTRIBUTING.md) okuyun.
 
-Başlamadan önce, lütfen değişikliklerinizin talep edildiğinden emin olun. Bunun için en iyisi, [yeni bir tartışma OLUŞTURMAK](https://github.com/openimsdk/open-im-server/discussions/new/choose) veya [Slack İletişimi](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q) kurmak, ya da bir sorun bulursanız, önce bunu [rapor](https://github.com/openimsdk/open-im-server/issues/new/choose) etmektir.
+Başlamadan önce, lütfen değişikliklerinizin talep edildiğinden emin olun. Bunun için en iyisi, [yeni bir tartışma OLUŞTURMAK](https://github.com/KyleYe/open-im-server/discussions/new/choose) veya [Slack İletişimi](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q) kurmak, ya da bir sorun bulursanız, önce bunu [rapor](https://github.com/KyleYe/open-im-server/issues/new/choose) etmektir.
 
-- [OpenIM API Referansı](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/api.md)
-- [OpenIM Bash Günlüğü](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/bash-log.md)
-- [OpenIM CI/CD İşlemleri](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/cicd-actions.md)
-- [OpenIM Kod Kuralları](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/code-conventions.md)
-- [OpenIM Taahhüt Kuralları](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/commit.md)
-- [OpenIM Geliştirme Kılavuzu](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/development.md)
-- [OpenIM Dizin Yapısı](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/directory.md)
-- [OpenIM Ortam Kurulumu](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/environment.md)
-- [OpenIM Hata Kodu Referansı](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/error-code.md)
-- [OpenIM Git İş Akışı](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/git-workflow.md)
-- [OpenIM Git Cherry Pick Kılavuzu](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/gitcherry-pick.md)
-- [OpenIM GitHub İş Akışı](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/github-workflow.md)
-- [OpenIM Go Kod Standartları](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/go-code.md)
-- [OpenIM Görüntü Kuralları](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/images.md)
-- [OpenIM İlk Yapılandırma](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/init-config.md)
-- [OpenIM Docker Kurulum Kılavuzu](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/install-docker.md)
-- [OpenIM Linux Sistem Kurulumu](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/install-openim-linux-system.md)
-- [OpenIM Linux Geliştirme Kılavuzu](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/linux-development.md)
-- [OpenIM Yerel İşlemler Kılavuzu](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/local-actions.md)
-- [OpenIM Günlük Kuralları](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/logging.md)
-- [OpenIM Çevrimdışı Dağıtım](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/offline-deployment.md)
-- [OpenIM Protoc Araçları](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/protoc-tools.md)
-- [OpenIM Test Kılavuzu](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/test.md)
-- [OpenIM Yardımcı Go](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/util-go.md)
-- [OpenIM Makefile Yardımcı Programları](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/util-makefile.md)
-- [OOpenIM Betik Yardımcı Programları](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/util-scripts.md)
-- [OpenIM Sürümleme](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/version.md)
-- [Arka uç yönetimi ve izleme dağıtımı](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/prometheus-grafana.md)
-- [Mac Geliştirici Dağıtım Kılavuzu for OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/mac-developer-deployment-guide.md)
+- [OpenIM API Referansı](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/api.md)
+- [OpenIM Bash Günlüğü](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/bash-log.md)
+- [OpenIM CI/CD İşlemleri](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/cicd-actions.md)
+- [OpenIM Kod Kuralları](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/code-conventions.md)
+- [OpenIM Taahhüt Kuralları](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/commit.md)
+- [OpenIM Geliştirme Kılavuzu](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/development.md)
+- [OpenIM Dizin Yapısı](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/directory.md)
+- [OpenIM Ortam Kurulumu](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/environment.md)
+- [OpenIM Hata Kodu Referansı](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/error-code.md)
+- [OpenIM Git İş Akışı](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/git-workflow.md)
+- [OpenIM Git Cherry Pick Kılavuzu](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/gitcherry-pick.md)
+- [OpenIM GitHub İş Akışı](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/github-workflow.md)
+- [OpenIM Go Kod Standartları](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/go-code.md)
+- [OpenIM Görüntü Kuralları](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/images.md)
+- [OpenIM İlk Yapılandırma](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/init-config.md)
+- [OpenIM Docker Kurulum Kılavuzu](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/install-docker.md)
+- [OpenIM Linux Sistem Kurulumu](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/install-openim-linux-system.md)
+- [OpenIM Linux Geliştirme Kılavuzu](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/linux-development.md)
+- [OpenIM Yerel İşlemler Kılavuzu](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/local-actions.md)
+- [OpenIM Günlük Kuralları](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/logging.md)
+- [OpenIM Çevrimdışı Dağıtım](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/offline-deployment.md)
+- [OpenIM Protoc Araçları](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/protoc-tools.md)
+- [OpenIM Test Kılavuzu](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/test.md)
+- [OpenIM Yardımcı Go](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/util-go.md)
+- [OpenIM Makefile Yardımcı Programları](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/util-makefile.md)
+- [OOpenIM Betik Yardımcı Programları](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/util-scripts.md)
+- [OpenIM Sürümleme](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/version.md)
+- [Arka uç yönetimi ve izleme dağıtımı](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/prometheus-grafana.md)
+- [Mac Geliştirici Dağıtım Kılavuzu for OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/mac-developer-deployment-guide.md)
 
 
 ## :busts_in_silhouette: Topluluk
@@ -170,20 +170,20 @@ Topluluğumuza herkesin katılmasını ve kod katkısında bulunmasını istiyor
 
 Konferansımız [OpenIM Slack'te](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q) 🎯, ardından Open-IM-Server boru hattını arayıp katılabilirsiniz.
 
-İki haftada bir yapılan toplantının [notlarını](https://github.com/orgs/OpenIMSDK/discussions/categories/meeting) [GitHub tartışmalarında alıyoruz](https://github.com/openimsdk/open-im-server/discussions/categories/meeting), Tarihi toplantı notlarımız ve toplantıların tekrarları [Google Docs'ta](https://docs.google.com/document/d/1nx8MDpuG74NASx081JcCpxPgDITNTpIIos0DS6Vr9GU/edit?usp=sharing) 📑 mevcut.
+İki haftada bir yapılan toplantının [notlarını](https://github.com/orgs/OpenIMSDK/discussions/categories/meeting) [GitHub tartışmalarında alıyoruz](https://github.com/KyleYe/open-im-server/discussions/categories/meeting), Tarihi toplantı notlarımız ve toplantıların tekrarları [Google Docs'ta](https://docs.google.com/document/d/1nx8MDpuG74NASx081JcCpxPgDITNTpIIos0DS6Vr9GU/edit?usp=sharing) 📑 mevcut.
 
 ## :eyes: Kimler OpenIM Kullanıyor
 
-Proje kullanıcılarının bir listesi için [kullanıcı vaka çalışmaları](https://github.com/OpenIMSDK/community/blob/main/ADOPTERS.md) sayfamıza göz atın. Bir 📝[yorum](https://github.com/openimsdk/open-im-server/issues/379) bırakmaktan ve kullanım durumunuzu paylaşmaktan çekinmeyin.
+Proje kullanıcılarının bir listesi için [kullanıcı vaka çalışmaları](https://github.com/OpenIMSDK/community/blob/main/ADOPTERS.md) sayfamıza göz atın. Bir 📝[yorum](https://github.com/KyleYe/open-im-server/issues/379) bırakmaktan ve kullanım durumunuzu paylaşmaktan çekinmeyin.
 
 ## :page_facing_up: Lisans
 
-OpenIM, Apache 2.0 lisansı altında lisanslanmıştır. Tam lisans metni için [LICENSE'ı](https://github.com/openimsdk/open-im-server/tree/main/LICENSE) görün.
+OpenIM, Apache 2.0 lisansı altında lisanslanmıştır. Tam lisans metni için [LICENSE'ı](https://github.com/KyleYe/open-im-server/tree/main/LICENSE) görün.
 
-Bu depoda, [assets/logo](../../assets/logo) ve [assets/logo-gif](../../assets/logo-gif) dizinlerinde görüntülenen [OpenIM](https://github.com/openimsdk/open-im-server) logosu, çeşitleri ve animasyonlu versiyonları, telif hakkı yasaları tarafından korunmaktadır.
+Bu depoda, [assets/logo](../../assets/logo) ve [assets/logo-gif](../../assets/logo-gif) dizinlerinde görüntülenen [OpenIM](https://github.com/KyleYe/open-im-server) logosu, çeşitleri ve animasyonlu versiyonları, telif hakkı yasaları tarafından korunmaktadır.
 
 ## 🔮 Katkıda bulunanlarımıza teşekkürler!
 
-<a href="https://github.com/openimsdk/open-im-server/graphs/contributors">
+<a href="https://github.com/KyleYe/open-im-server/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=openimsdk/open-im-server" />
 </a>

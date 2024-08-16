@@ -6,15 +6,15 @@
 
 <div align="center">
 
-[![Stars](https://img.shields.io/github/stars/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=ff69b4)](https://github.com/openimsdk/open-im-server/stargazers)
-[![Forks](https://img.shields.io/github/forks/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=blue)](https://github.com/openimsdk/open-im-server/network/members)
+[![Stars](https://img.shields.io/github/stars/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=ff69b4)](https://github.com/KyleYe/open-im-server/stargazers)
+[![Forks](https://img.shields.io/github/forks/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=blue)](https://github.com/KyleYe/open-im-server/network/members)
 [![Codecov](https://img.shields.io/codecov/c/github/openimsdk/open-im-server?style=for-the-badge&logo=codecov&colorB=orange)](https://app.codecov.io/gh/openimsdk/open-im-server)
-[![Go Report Card](https://goreportcard.com/badge/github.com/openimsdk/open-im-server?style=for-the-badge)](https://goreportcard.com/report/github.com/openimsdk/open-im-server)
-[![Go Reference](https://img.shields.io/badge/Go%20Reference-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://pkg.go.dev/github.com/openimsdk/open-im-server/v3)
-[![License](https://img.shields.io/badge/license-Apache--2.0-green?style=for-the-badge)](https://github.com/openimsdk/open-im-server/blob/main/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/KyleYe/open-im-server?style=for-the-badge)](https://goreportcard.com/report/github.com/KyleYe/open-im-server)
+[![Go Reference](https://img.shields.io/badge/Go%20Reference-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://pkg.go.dev/github.com/KyleYe/open-im-server/v3)
+[![License](https://img.shields.io/badge/license-Apache--2.0-green?style=for-the-badge)](https://github.com/KyleYe/open-im-server/blob/main/LICENSE)
 [![Slack](https://img.shields.io/badge/Slack-500%2B-blueviolet?style=for-the-badge&logo=slack&logoColor=white)](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q)
 [![Best Practices](https://img.shields.io/badge/Best%20Practices-purple?style=for-the-badge)](https://www.bestpractices.dev/projects/8045)
-[![Good First Issues](https://img.shields.io/github/issues/openimsdk/open-im-server/good%20first%20issue?style=for-the-badge&logo=github)](https://github.com/openimsdk/open-im-server/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22)
+[![Good First Issues](https://img.shields.io/github/issues/openimsdk/open-im-server/good%20first%20issue?style=for-the-badge&logo=github)](https://github.com/KyleYe/open-im-server/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22)
 [![Language](https://img.shields.io/badge/Language-Go-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://golang.org/)
 
 
@@ -120,40 +120,40 @@ Chúng tôi hỗ trợ nhiều nền tảng. Dưới đây là các địa chỉ
 
 Mục tiêu của OpenIM là xây dựng một cộng đồng mã nguồn mở cấp cao. Chúng tôi có một bộ tiêu chuẩn, Trong [kho lưu trữ Cộng đồng](https://github.com/OpenIMSDK/community).
 
-Nếu bạn muốn đóng góp cho kho lưu trữ Open-IM-Server này, vui lòng đọc [tài liệu hướng dẫn cho người đóng góp](https://github.com/openimsdk/open-im-server/blob/main/CONTRIBUTING.md).
+Nếu bạn muốn đóng góp cho kho lưu trữ Open-IM-Server này, vui lòng đọc [tài liệu hướng dẫn cho người đóng góp](https://github.com/KyleYe/open-im-server/blob/main/CONTRIBUTING.md).
 
 
-Trước khi bạn bắt đầu, hãy chắc chắn rằng các thay đổi của bạn được yêu cầu. Cách tốt nhất là tạo một [cuộc thảo luận mới](https://github.com/openimsdk/open-im-server/discussions/new/choose) hoặc [Giao tiếp Slack](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q), hoặc nếu bạn tìm thấy một vấn đề, [báo cáo nó ](https://github.com/openimsdk/open-im-server/issues/new/choose) trước.
+Trước khi bạn bắt đầu, hãy chắc chắn rằng các thay đổi của bạn được yêu cầu. Cách tốt nhất là tạo một [cuộc thảo luận mới](https://github.com/KyleYe/open-im-server/discussions/new/choose) hoặc [Giao tiếp Slack](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q), hoặc nếu bạn tìm thấy một vấn đề, [báo cáo nó ](https://github.com/KyleYe/open-im-server/issues/new/choose) trước.
 
-- [Tham khảo API OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/api.md)
-- [Nhật ký Bash OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/bash-log.md)
-- [Hành động CI/CD OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/cicd-actions.md)
-- [Quy ước Mã OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/code-conventions.md)
-- [Hướng dẫn Commit OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/commit.md)
-- [Hướng dẫn Phát triển OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/development.md)
-- [Cấu trúc Thư mục OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/directory.md)
-- [Cài đặt Môi trường OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/environment.md)
-- [Tham khảo Mã Lỗi OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/error-code.md)
-- [Quy trình Git OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/git-workflow.md)
-- [Hướng dẫn Cherry Pick Git OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/gitcherry-pick.md)
-- [Quy trình GitHub OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/github-workflow.md)
-- [Tiêu chuẩn Mã Go OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/go-code.md)
-- [Hướng dẫn Hình ảnh OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/images.md)
-- [Cấu hình Ban đầu OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/init-config.md)
-- [Hướng dẫn Cài đặt Docker OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/install-docker.md)
-- [Hướng dẫn Cài đặt Hệ thống Linux OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/install-openim-linux-system.md)
-- [Hướng dẫn Phát triển Linux OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/linux-development.md)
-- [Hướng dẫn Hành động Địa phương OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/local-actions.md)
-- [Quy ước Nhật ký OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/logging.md)
-- [Triển khai Ngoại tuyến OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/offline-deployment.md)
-- [Công cụ Protoc OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/protoc-tools.md)
-- [Hướng dẫn Kiểm thử OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/test.md)
-- [Utility Go OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/util-go.md)
-- [Tiện ích Makefile OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/util-makefile.md)
-- [Tiện ích Kịch bản OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/util-scripts.md)
-- [Quản lý Phiên bản OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/version.md)
-- [Quản lý triển khai và giám sát backend](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/prometheus-grafana.md)
-- [Hướng dẫn Triển khai cho Nhà Phát triển Mac OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/mac-developer-deployment-guide.md)
+- [Tham khảo API OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/api.md)
+- [Nhật ký Bash OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/bash-log.md)
+- [Hành động CI/CD OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/cicd-actions.md)
+- [Quy ước Mã OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/code-conventions.md)
+- [Hướng dẫn Commit OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/commit.md)
+- [Hướng dẫn Phát triển OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/development.md)
+- [Cấu trúc Thư mục OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/directory.md)
+- [Cài đặt Môi trường OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/environment.md)
+- [Tham khảo Mã Lỗi OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/error-code.md)
+- [Quy trình Git OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/git-workflow.md)
+- [Hướng dẫn Cherry Pick Git OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/gitcherry-pick.md)
+- [Quy trình GitHub OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/github-workflow.md)
+- [Tiêu chuẩn Mã Go OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/go-code.md)
+- [Hướng dẫn Hình ảnh OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/images.md)
+- [Cấu hình Ban đầu OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/init-config.md)
+- [Hướng dẫn Cài đặt Docker OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/install-docker.md)
+- [Hướng dẫn Cài đặt Hệ thống Linux OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/install-openim-linux-system.md)
+- [Hướng dẫn Phát triển Linux OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/linux-development.md)
+- [Hướng dẫn Hành động Địa phương OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/local-actions.md)
+- [Quy ước Nhật ký OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/logging.md)
+- [Triển khai Ngoại tuyến OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/offline-deployment.md)
+- [Công cụ Protoc OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/protoc-tools.md)
+- [Hướng dẫn Kiểm thử OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/test.md)
+- [Utility Go OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/util-go.md)
+- [Tiện ích Makefile OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/util-makefile.md)
+- [Tiện ích Kịch bản OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/util-scripts.md)
+- [Quản lý Phiên bản OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/version.md)
+- [Quản lý triển khai và giám sát backend](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/prometheus-grafana.md)
+- [Hướng dẫn Triển khai cho Nhà Phát triển Mac OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/mac-developer-deployment-guide.md)
 
 
 ## :busts_in_silhouette: Cộng đồng
@@ -169,20 +169,20 @@ Chúng tôi muốn bất kỳ ai cũng có thể tham gia cộng đồng và đ�
 
 Hội nghị của chúng tôi được tổ chức trên Slack của [OpenIM Slack](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q) 🎯, sau đó bạn có thể tìm kiếm pipeline Open-IM-Server để tham gia
 
-Chúng tôi ghi chú mỗi [cuộc họp hai tuần một lần](https://github.com/orgs/OpenIMSDK/discussions/categories/meeting) trong [các cuộc thảo luận GitHub](https://github.com/openimsdk/open-im-server/discussions/categories/meeting), ghi chú cuộc họp lịch sử của chúng tôi cũng như các bản ghi lại của cuộc họp có sẵn tại [Google Docs :bookmark_tabs:](https://docs.google.com/document/d/1nx8MDpuG74NASx081JcCpxPgDITNTpIIos0DS6Vr9GU/edit?usp=sharing).
+Chúng tôi ghi chú mỗi [cuộc họp hai tuần một lần](https://github.com/orgs/OpenIMSDK/discussions/categories/meeting) trong [các cuộc thảo luận GitHub](https://github.com/KyleYe/open-im-server/discussions/categories/meeting), ghi chú cuộc họp lịch sử của chúng tôi cũng như các bản ghi lại của cuộc họp có sẵn tại [Google Docs :bookmark_tabs:](https://docs.google.com/document/d/1nx8MDpuG74NASx081JcCpxPgDITNTpIIos0DS6Vr9GU/edit?usp=sharing).
 
 ## :eyes: Ai Đang Sử Dụng OpenIM
 
-Xem trangr [các nghiên cứu trường hợp người dùng](https://github.com/OpenIMSDK/community/blob/main/ADOPTERS.md) của chúng tôi để biết danh sách các người dùng dự án. Đừng ngần ngại để lại [📝bình luận](https://github.com/openimsdk/open-im-server/issues/379) và chia sẻ trường hợp sử dụng của bạn.
+Xem trangr [các nghiên cứu trường hợp người dùng](https://github.com/OpenIMSDK/community/blob/main/ADOPTERS.md) của chúng tôi để biết danh sách các người dùng dự án. Đừng ngần ngại để lại [📝bình luận](https://github.com/KyleYe/open-im-server/issues/379) và chia sẻ trường hợp sử dụng của bạn.
 
 ## :page_facing_up: Giấy phép
 
-OpenIM được cấp phép theo giấy phép Apache 2.0. Xem [GIẤY PHÉP](https://github.com/openimsdk/open-im-server/tree/main/LICENSE) để biết toàn bộ nội dung giấy phép.
+OpenIM được cấp phép theo giấy phép Apache 2.0. Xem [GIẤY PHÉP](https://github.com/KyleYe/open-im-server/tree/main/LICENSE) để biết toàn bộ nội dung giấy phép.
 
-Logo OpenIM, bao gồm các biến thể và phiên bản hoạt hình, được hiển thị trong kho lưu trữ này [OpenIM](https://github.com/openimsdk/open-im-server) dưới các thư mục [assets/logo](../../assets/logo) và [assets/logo-gif](assets/logo-gif) được bảo vệ bởi luật bản quyền.
+Logo OpenIM, bao gồm các biến thể và phiên bản hoạt hình, được hiển thị trong kho lưu trữ này [OpenIM](https://github.com/KyleYe/open-im-server) dưới các thư mục [assets/logo](../../assets/logo) và [assets/logo-gif](assets/logo-gif) được bảo vệ bởi luật bản quyền.
 
 ## 🔮 Cảm ơn các đóng góp của bạn!
 
-<a href="https://github.com/openimsdk/open-im-server/graphs/contributors">
+<a href="https://github.com/KyleYe/open-im-server/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=openimsdk/open-im-server" />
 </a>

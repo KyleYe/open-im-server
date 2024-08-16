@@ -6,15 +6,15 @@
 
 <div align="center">
 
-[![Stars](https://img.shields.io/github/stars/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=ff69b4)](https://github.com/openimsdk/open-im-server/stargazers)
-[![Forks](https://img.shields.io/github/forks/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=blue)](https://github.com/openimsdk/open-im-server/network/members)
+[![Stars](https://img.shields.io/github/stars/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=ff69b4)](https://github.com/KyleYe/open-im-server/stargazers)
+[![Forks](https://img.shields.io/github/forks/openimsdk/open-im-server?style=for-the-badge&logo=github&colorB=blue)](https://github.com/KyleYe/open-im-server/network/members)
 [![Codecov](https://img.shields.io/codecov/c/github/openimsdk/open-im-server?style=for-the-badge&logo=codecov&colorB=orange)](https://app.codecov.io/gh/openimsdk/open-im-server)
-[![Go Report Card](https://goreportcard.com/badge/github.com/openimsdk/open-im-server?style=for-the-badge)](https://goreportcard.com/report/github.com/openimsdk/open-im-server)
-[![Go Reference](https://img.shields.io/badge/Go%20Reference-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://pkg.go.dev/github.com/openimsdk/open-im-server/v3)
-[![License](https://img.shields.io/badge/license-Apache--2.0-green?style=for-the-badge)](https://github.com/openimsdk/open-im-server/blob/main/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/KyleYe/open-im-server?style=for-the-badge)](https://goreportcard.com/report/github.com/KyleYe/open-im-server)
+[![Go Reference](https://img.shields.io/badge/Go%20Reference-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://pkg.go.dev/github.com/KyleYe/open-im-server/v3)
+[![License](https://img.shields.io/badge/license-Apache--2.0-green?style=for-the-badge)](https://github.com/KyleYe/open-im-server/blob/main/LICENSE)
 [![Slack](https://img.shields.io/badge/Slack-500%2B-blueviolet?style=for-the-badge&logo=slack&logoColor=white)](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q)
 [![Best Practices](https://img.shields.io/badge/Best%20Practices-purple?style=for-the-badge)](https://www.bestpractices.dev/projects/8045)
-[![Good First Issues](https://img.shields.io/github/issues/openimsdk/open-im-server/good%20first%20issue?style=for-the-badge&logo=github)](https://github.com/openimsdk/open-im-server/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22)
+[![Good First Issues](https://img.shields.io/github/issues/openimsdk/open-im-server/good%20first%20issue?style=for-the-badge&logo=github)](https://github.com/KyleYe/open-im-server/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22)
 [![Language](https://img.shields.io/badge/Language-Go-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://golang.org/)
 
 
@@ -120,39 +120,39 @@
 
 OpenIM Στόχος μας είναι να δημιουργήσουμε μια κορυφαίου επιπέδου ανοιχτή πηγή κοινότητας. Διαθέτουμε ένα σύνολο προτύπων, στο [Αποθετήριο Κοινότητας](https://github.com/OpenIMSDK/community).
 
-Εάν θέλετε να συνεισφέρετε σε αυτό το αποθετήριο Open-IM-Server, παρακαλούμε διαβάστε την [τεκμηρίωση συνεισφέροντος](https://github.com/openimsdk/open-im-server/blob/main/CONTRIBUTING.md).
+Εάν θέλετε να συνεισφέρετε σε αυτό το αποθετήριο Open-IM-Server, παρακαλούμε διαβάστε την [τεκμηρίωση συνεισφέροντος](https://github.com/KyleYe/open-im-server/blob/main/CONTRIBUTING.md).
 
-Πριν ξεκινήσετε, παρακαλούμε βεβαιωθείτε ότι οι αλλαγές σας είναι ζητούμενες. Το καλύτερο για αυτό είναι να δημιουργήσετε ένα [νέα συζήτηση](https://github.com/openimsdk/open-im-server/discussions/new/choose) ή [Επικοινωνία Slack](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q), ή αν βρείτε ένα ζήτημα, [αναφέρετέ το](https://github.com/openimsdk/open-im-server/issues/new/choose) πρώτα.
+Πριν ξεκινήσετε, παρακαλούμε βεβαιωθείτε ότι οι αλλαγές σας είναι ζητούμενες. Το καλύτερο για αυτό είναι να δημιουργήσετε ένα [νέα συζήτηση](https://github.com/KyleYe/open-im-server/discussions/new/choose) ή [Επικοινωνία Slack](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q), ή αν βρείτε ένα ζήτημα, [αναφέρετέ το](https://github.com/KyleYe/open-im-server/issues/new/choose) πρώτα.
 
-- [Αναφορά API του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/api.md)
-- [Καταγραφή Bash του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/bash-log.md)
-- [Ενέργειες CI/CD του OpenIMs](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/cicd-actions.md)
-- [Συμβάσεις Κώδικα του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/code-conventions.md)
-- [Οδηγίες Commit του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/commit.md)
-- [Οδηγός Ανάπτυξης του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/development.md)
-- [Δομή Καταλόγου του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/directory.md)
-- [Ρύθμιση Περιβάλλοντος του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/environment.md)
-- [Αναφορά Κωδικών Σφάλματος του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/error-code.md)
-- [Ροή Εργασίας Git του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/git-workflow.md)
-- [Οδηγός Cherry Pick του Git του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/gitcherry-pick.md)
-- [Ροή Εργασίας GitHub του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/github-workflow.md)
-- [Πρότυπα Κώδικα Go του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/go-code.md)
-- [Οδηγίες Εικόνας του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/images.md)
-- [Αρχική Διαμόρφωση του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/init-config.md)
-- [Οδηγός Εγκατάστασης Docker του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/install-docker.md)
-- [Οδηγός Εγκατάστασης Συστήματος Linux του Open](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/install-openim-linux-system.md)
-- [Οδηγός Ανάπτυξης Linux του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/linux-development.md)
-- [Οδηγός Τοπικών Δράσεων του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/local-actions.md)
-- [Συμβάσεις Καταγραφής του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/logging.md)
-- [Αποστολή Εκτός Σύνδεσης του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/offline-deployment.md)
-- [Εργαλεία Protoc του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/protoc-tools.md)
-- [Οδηγός Δοκιμών του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/test.md)
-- [Χρησιμότητα Go του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/util-go.md)
-- [Χρησιμότητες Makefile του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/util-makefile.md)
-- [Χρησιμότητες Σεναρίου του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/util-scripts.md)
-- [Έκδοση του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/version.md)
-- [Διαχείριση backend και παρακολούθηση ανάπτυξης](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/prometheus-grafana.md)
-- [Οδηγός Ανάπτυξης για Προγραμματιστές Mac του OpenIM](https://github.com/openimsdk/open-im-server/tree/main/docs/contrib/mac-developer-deployment-guide.md)
+- [Αναφορά API του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/api.md)
+- [Καταγραφή Bash του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/bash-log.md)
+- [Ενέργειες CI/CD του OpenIMs](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/cicd-actions.md)
+- [Συμβάσεις Κώδικα του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/code-conventions.md)
+- [Οδηγίες Commit του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/commit.md)
+- [Οδηγός Ανάπτυξης του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/development.md)
+- [Δομή Καταλόγου του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/directory.md)
+- [Ρύθμιση Περιβάλλοντος του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/environment.md)
+- [Αναφορά Κωδικών Σφάλματος του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/error-code.md)
+- [Ροή Εργασίας Git του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/git-workflow.md)
+- [Οδηγός Cherry Pick του Git του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/gitcherry-pick.md)
+- [Ροή Εργασίας GitHub του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/github-workflow.md)
+- [Πρότυπα Κώδικα Go του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/go-code.md)
+- [Οδηγίες Εικόνας του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/images.md)
+- [Αρχική Διαμόρφωση του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/init-config.md)
+- [Οδηγός Εγκατάστασης Docker του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/install-docker.md)
+- [Οδηγός Εγκατάστασης Συστήματος Linux του Open](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/install-openim-linux-system.md)
+- [Οδηγός Ανάπτυξης Linux του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/linux-development.md)
+- [Οδηγός Τοπικών Δράσεων του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/local-actions.md)
+- [Συμβάσεις Καταγραφής του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/logging.md)
+- [Αποστολή Εκτός Σύνδεσης του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/offline-deployment.md)
+- [Εργαλεία Protoc του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/protoc-tools.md)
+- [Οδηγός Δοκιμών του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/test.md)
+- [Χρησιμότητα Go του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/util-go.md)
+- [Χρησιμότητες Makefile του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/util-makefile.md)
+- [Χρησιμότητες Σεναρίου του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/util-scripts.md)
+- [Έκδοση του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/version.md)
+- [Διαχείριση backend και παρακολούθηση ανάπτυξης](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/prometheus-grafana.md)
+- [Οδηγός Ανάπτυξης για Προγραμματιστές Mac του OpenIM](https://github.com/KyleYe/open-im-server/tree/main/docs/contrib/mac-developer-deployment-guide.md)
 
 
 ## :busts_in_silhouette: Κοινότητα
@@ -168,19 +168,19 @@ OpenIM Στόχος μας είναι να δημιουργήσουμε μια �
 
 Η διάσκεψή μας είναι στο [OpenIM Slack](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q) 🎯, στη συνέχεια μπορείτε να αναζητήσετε τη διαδικασία Open-IM-Server για να συμμετάσχετε
 
-Κάνουμε σημειώσεις για κάθε μια [Σημειώνουμε κάθε διμηνιαία συνάντηση](https://github.com/orgs/OpenIMSDK/discussions/categories/meeting) στις [συζητήσεις του GitHub](https://github.com/openimsdk/open-im-server/discussions/categories/meeting), Οι ιστορικές μας σημειώσεις συναντήσεων, καθώς και οι επαναλήψεις των συναντήσεων είναι διαθέσιμες στο[Έγγραφα της Google :bookmark_tabs:](https://docs.google.com/document/d/1nx8MDpuG74NASx081JcCpxPgDITNTpIIos0DS6Vr9GU/edit?usp=sharing).
+Κάνουμε σημειώσεις για κάθε μια [Σημειώνουμε κάθε διμηνιαία συνάντηση](https://github.com/orgs/OpenIMSDK/discussions/categories/meeting) στις [συζητήσεις του GitHub](https://github.com/KyleYe/open-im-server/discussions/categories/meeting), Οι ιστορικές μας σημειώσεις συναντήσεων, καθώς και οι επαναλήψεις των συναντήσεων είναι διαθέσιμες στο[Έγγραφα της Google :bookmark_tabs:](https://docs.google.com/document/d/1nx8MDpuG74NASx081JcCpxPgDITNTpIIos0DS6Vr9GU/edit?usp=sharing).
 
 ## :eyes: Ποιοί Χρησιμοποιούν το OpenIM
 
-Ελέγξτε τη σελίδα με τις [μελέτες περίπτωσης χρήσης ](https://github.com/OpenIMSDK/community/blob/main/ADOPTERS.md) μας για μια λίστα των χρηστών του έργου. Μην διστάσετε να αφήσετε ένα[📝σχόλιο](https://github.com/openimsdk/open-im-server/issues/379) και να μοιραστείτε την περίπτωση χρήσης σας.
+Ελέγξτε τη σελίδα με τις [μελέτες περίπτωσης χρήσης ](https://github.com/OpenIMSDK/community/blob/main/ADOPTERS.md) μας για μια λίστα των χρηστών του έργου. Μην διστάσετε να αφήσετε ένα[📝σχόλιο](https://github.com/KyleYe/open-im-server/issues/379) και να μοιραστείτε την περίπτωση χρήσης σας.
 ## :page_facing_up: Άδεια Χρήσης
 
-Το OpenIM διατίθεται υπό την άδεια Apache 2.0. Δείτε τη [ΑΔΕΙΑ ΧΡΗΣΗΣ](https://github.com/openimsdk/open-im-server/tree/main/LICENSE)  για το πλήρες κείμενο της άδειας.
+Το OpenIM διατίθεται υπό την άδεια Apache 2.0. Δείτε τη [ΑΔΕΙΑ ΧΡΗΣΗΣ](https://github.com/KyleYe/open-im-server/tree/main/LICENSE)  για το πλήρες κείμενο της άδειας.
 
-Το λογότυπο του OpenIM, συμπεριλαμβανομένων των παραλλαγών και των κινούμενων εικόνων, που εμφανίζονται σε αυτό το αποθετήριο[OpenIM](https://github.com/openimsdk/open-im-server) υπό τις διευθύνσεις [assets/logo](../../assets/logo) και [assets/logo-gif](../../assets/logo-gif) προστατεύονται από τους νόμους περί πνευματικής ιδιοκτησίας.
+Το λογότυπο του OpenIM, συμπεριλαμβανομένων των παραλλαγών και των κινούμενων εικόνων, που εμφανίζονται σε αυτό το αποθετήριο[OpenIM](https://github.com/KyleYe/open-im-server) υπό τις διευθύνσεις [assets/logo](../../assets/logo) και [assets/logo-gif](../../assets/logo-gif) προστατεύονται από τους νόμους περί πνευματικής ιδιοκτησίας.
 
 ## 🔮 Ευχαριστούμε τους συνεισφέροντες μας!
 
-<a href="https://github.com/openimsdk/open-im-server/graphs/contributors">
+<a href="https://github.com/KyleYe/open-im-server/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=openimsdk/open-im-server" />
 </a>

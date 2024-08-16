@@ -17,7 +17,7 @@ package api
 import (
 	"context"
 	"fmt"
-	"github.com/openimsdk/open-im-server/v3/pkg/common/config"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
 	"github.com/openimsdk/tools/utils/datautil"
 	"github.com/openimsdk/tools/utils/network"
 	"net"
@@ -28,8 +28,8 @@ import (
 	"syscall"
 	"time"
 
-	kdisc "github.com/openimsdk/open-im-server/v3/pkg/common/discoveryregister"
-	"github.com/openimsdk/open-im-server/v3/pkg/common/prommetrics"
+	kdisc "github.com/KyleYe/open-im-server/v3/pkg/common/discoveryregister"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/prommetrics"
 	"github.com/openimsdk/tools/discovery"
 	"github.com/openimsdk/tools/errs"
 	"github.com/openimsdk/tools/log"

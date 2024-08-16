@@ -2,7 +2,7 @@ package versionctx
 
 import (
 	"context"
-	tablerelation "github.com/openimsdk/open-im-server/v3/pkg/common/storage/model"
+	tablerelation "github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
 	"sync"
 )
 

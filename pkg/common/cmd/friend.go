@@ -17,9 +17,9 @@ package cmd
 import (
 	"context"
 
-	"github.com/openimsdk/open-im-server/v3/internal/rpc/relation"
-	"github.com/openimsdk/open-im-server/v3/pkg/common/startrpc"
-	"github.com/openimsdk/open-im-server/v3/version"
+	"github.com/KyleYe/open-im-server/v3/internal/rpc/relation"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/startrpc"
+	"github.com/KyleYe/open-im-server/v3/version"
 	"github.com/openimsdk/tools/system/program"
 	"github.com/spf13/cobra"
 )

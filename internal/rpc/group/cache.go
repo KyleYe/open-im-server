@@ -17,7 +17,7 @@ package group
 import (
 	"context"
 
-	"github.com/openimsdk/open-im-server/v3/pkg/common/convert"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/convert"
 	pbgroup "github.com/openimsdk/protocol/group"
 )
 

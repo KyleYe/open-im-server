@@ -16,8 +16,8 @@ package mgo
 
 import (
 	"context"
-	"github.com/openimsdk/open-im-server/v3/pkg/common/storage/database"
-	"github.com/openimsdk/open-im-server/v3/pkg/common/storage/model"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/database"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
 	"time"
 
 	"github.com/openimsdk/protocol/constant"

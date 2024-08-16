@@ -116,7 +116,7 @@ Please refer to the `CONTRIBUTING.md` file for more detailed instructions on con
 
 If you encounter any issues while running the E2E tests, please open an issue on the GitHub repository with the following information:
 
-Open issue: https://github.com/openimsdk/open-im-server/issues/new/choose, choose "Failing Test" template.
+Open issue: https://github.com/KyleYe/open-im-server/issues/new/choose, choose "Failing Test" template.
 
 + A clear and concise description of the issue.
 + Steps to reproduce the behavior.
@@ -128,7 +128,7 @@ Open issue: https://github.com/openimsdk/open-im-server/issues/new/choose, choos
 
 The E2E test suite is integrated with CI, which runs the tests automatically on each code commit. The results are reported back to the pull request or commit to provide immediate feedback on the impact of the changes.
 
-[![OpenIM Linux System E2E Test](https://github.com/openimsdk/open-im-server/actions/workflows/e2e-test.yml/badge.svg)](https://github.com/openimsdk/open-im-server/actions/workflows/e2e-test.yml)
+[![OpenIM Linux System E2E Test](https://github.com/KyleYe/open-im-server/actions/workflows/e2e-test.yml/badge.svg)](https://github.com/KyleYe/open-im-server/actions/workflows/e2e-test.yml)
 
 
 ## Contact

@@ -17,7 +17,7 @@ package getui
 import (
 	"fmt"
 
-	"github.com/openimsdk/open-im-server/v3/pkg/common/config"
+	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
 )
 
 type Resp struct {

@@ -30,10 +30,10 @@
   <a href="docs/contributing/CONTRIBUTING-TR.md">Türkçe</a>
 </p>
 
-本指南将以 [openimsdk/open-im-server](https://github.com/openimsdk/open-im-server) 为例，详细说明如何为 OpenIM 项目贡献代码。我们采用“一问题一分支”的策略，确保每个 Issue 都对应一个专门的分支，以便有效管理代码变更。
+本指南将以 [openimsdk/open-im-server](https://github.com/KyleYe/open-im-server) 为例，详细说明如何为 OpenIM 项目贡献代码。我们采用“一问题一分支”的策略，确保每个 Issue 都对应一个专门的分支，以便有效管理代码变更。
 
 ### 1. Fork 仓库
-前往 [openimsdk/open-im-server](https://github.com/openimsdk/open-im-server) GitHub 页面，点击右上角的 "Fork" 按钮，将仓库 Fork 到你的 GitHub 账户下。
+前往 [openimsdk/open-im-server](https://github.com/KyleYe/open-im-server) GitHub 页面，点击右上角的 "Fork" 按钮，将仓库 Fork 到你的 GitHub 账户下。
 
 ### 2. 克隆仓库
 将你 Fork 的仓库克隆到本地：
@@ -44,7 +44,7 @@ git clone https://github.com/your-username/open-im-server.git
 ### 3. 设置远程上游
 添加原始仓库为远程上游以便跟踪其更新：
 ```bash
-git remote add upstream https://github.com/openimsdk/open-im-server.git
+git remote add upstream https://github.com/KyleYe/open-im-server.git
 ```
 
 ### 4. 创建 Issue
@@ -82,8 +82,8 @@ I have read the CLA Document and I hereby sign the CLA
 
 ### 编程规范
 请参考以下文档以了解关于 Go 语言编程规范的详细信息：
-- [Go 编码规范](https://github.com/openimsdk/open-im-server/blob/main/docs/contrib/go-code.md)
-- [代码约定](https://github.com/openimsdk/open-im-server/blob/main/docs/contrib/code-conventions.md)
+- [Go 编码规范](https://github.com/KyleYe/open-im-server/blob/main/docs/contrib/go-code.md)
+- [代码约定](https://github.com/KyleYe/open-im-server/blob/main/docs/contrib/code-conventions.md)
 
 ### 日志规范
 - **禁止使用标准的 `log` 包**。
