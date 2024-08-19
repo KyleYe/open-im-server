@@ -17,6 +17,7 @@ package convert
 import (
 	"context"
 	"fmt"
+	"math"
 
 	"github.com/KyleYe/open-im-server/v3/pkg/common/storage/model"
 
@@ -88,6 +89,42 @@ func FriendsDB2Pb(
 	}
 	return friendsPb, nil
 
+}
+
+func NearbyFriendsDB2Pb(
+	ctx context.Context,
+	latitude, longitude float64,
+	friendsDB []*model.Friend,
+	getUsers func(ctx context.Context, userIDs []string) (map[string]*sdkws.UserInfo, error),
+) (friendsPb []*sdkws.FriendInfo, err error) {
+	if len(friendsDB) == 0 {
+		return nil, nil
+	}
+	var userID []string
+	for _, friendDB := range friendsDB {
+		userID = append(userID, friendDB.FriendUserID)
+	}
+	users, err := getUsers(ctx, userID)
+	if err != nil {
+		return nil, err
+	}
+	for _, friend := range friendsDB {
+		friendPb := &sdkws.FriendInfo{FriendUser: &sdkws.UserInfo{}}
+		datautil.CopyStructFields(friendPb, friend)
+
+		flatitude := users[friend.FriendUserID].Latitude
+		flongitude := users[friend.FriendUserID].Longitude
+
+		if math.Abs(float64((latitude-flatitude)*(latitude-flatitude)-(longitude-flongitude)*(longitude-flongitude))) <= (100 * 100) {
+			friendPb.FriendUser.UserID = users[friend.FriendUserID].UserID
+			friendPb.FriendUser.Nickname = users[friend.FriendUserID].Nickname
+			friendPb.FriendUser.FaceURL = users[friend.FriendUserID].FaceURL
+			friendPb.FriendUser.Ex = users[friend.FriendUserID].Ex
+			friendPb.CreateTime = friend.CreateTime.Unix()
+			friendsPb = append(friendsPb, friendPb)
+		}
+	}
+	return friendsPb, nil
 }
 
 func FriendRequestDB2Pb(ctx context.Context, friendRequests []*model.FriendRequest, getUsers func(ctx context.Context, userIDs []string) (map[string]*sdkws.UserInfo, error)) ([]*sdkws.FriendRequest, error) {

@@ -109,3 +109,7 @@ func (o *FriendApi) GetIncrementalBlacks(c *gin.Context) {
 func (o *FriendApi) GetFullFriendUserIDs(c *gin.Context) {
 	a2r.Call(relation.FriendClient.GetFullFriendUserIDs, o.Client, c)
 }
+
+func (o *FriendApi) GetNearbyFriends(c *gin.Context) {
+	a2r.Call(relation.FriendClient.GetNearbyFriends, o.Client, c)
+}

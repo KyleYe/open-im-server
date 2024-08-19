@@ -108,6 +108,7 @@ func newGinRouter(disCov discovery.SvcDiscoveryRegistry, config *Config) *gin.En
 		friendRouterGroup.POST("/update_friends", f.UpdateFriends)
 		friendRouterGroup.POST("/get_incremental_friends", f.GetIncrementalFriends)
 		friendRouterGroup.POST("/get_full_friend_user_ids", f.GetFullFriendUserIDs)
+		friendRouterGroup.POST("/get_friend_list_nearby", f.GetNearbyFriends)
 	}
 	g := NewGroupApi(*groupRpc)
 	groupRouterGroup := r.Group("/group")

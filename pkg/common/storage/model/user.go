@@ -26,6 +26,8 @@ type User struct {
 	AppMangerLevel   int32     `bson:"app_manger_level"`
 	GlobalRecvMsgOpt int32     `bson:"global_recv_msg_opt"`
 	CreateTime       time.Time `bson:"create_time"`
+	Latitude         float64   `gorm:"column:latitude"`
+	Longitude        float64   `gorm:"column:longitude"`
 }
 
 func (u *User) GetNickname() string {

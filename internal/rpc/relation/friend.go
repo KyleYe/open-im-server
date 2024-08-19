@@ -17,6 +17,7 @@ package relation
 import (
 	"context"
 
+	pbfriend "github.com/KyleYe/open-im-protocol/relation"
 	"github.com/KyleYe/open-im-tools/mq/memamq"
 
 	"github.com/KyleYe/open-im-server/v3/pkg/common/config"
@@ -495,4 +496,37 @@ func (s *friendServer) GetIncrementalFriendsApplyFrom(ctx context.Context, req *
 func (s *friendServer) GetIncrementalBlacks(ctx context.Context, req *relation.GetIncrementalBlacksReq) (*relation.GetIncrementalBlacksResp, error) {
 	// TODO implement me
 	return nil, nil
+}
+
+func (s *friendServer) GetNearbyFriends(
+	ctx context.Context,
+	req *pbfriend.GetNearbyFriendsReq,
+) (resp *pbfriend.GetNearbyFriendsResp, err error) {
+	if err := s.userRpcClient.Access(ctx, req.UserID); err != nil {
+		return nil, err
+	}
+	_, friends, err := s.db.PageOwnerFriends(ctx, req.UserID, req.Pagination)
+	if err != nil {
+		return nil, err
+	}
+	var n_friends []*model.Friend
+	for i := 0; i < len(friends); i++ {
+		_, nf, _ := s.db.PageOwnerFriends(ctx, friends[i].FriendUserID, &sdkws.RequestPagination{PageNumber: 1, ShowNumber: 100})
+		for j := 0; j < len(nf); j++ {
+			if nf[j].FriendUserID == req.UserID || nf[j].OwnerUserID == req.UserID {
+				continue
+			} else {
+				n_friends = append(n_friends, nf[j])
+			}
+		}
+	}
+	resp = &pbfriend.GetNearbyFriendsResp{}
+	// resp.FriendsInfo, err = convert.NearbyFriendsDB2Pb(ctx, req.Latitude, req.Longitude, friends, s.userRpcClient.GetUsersInfoMap)
+	resp.FriendsInfo, err = convert.NearbyFriendsDB2Pb(ctx, req.Latitude, req.Longitude, n_friends, s.userRpcClient.GetUsersInfoMap)
+	if err != nil {
+		return nil, err
+	}
+	// resp.Total = int32(total)
+	resp.Total = int32(len(resp.FriendsInfo))
+	return resp, nil
 }
