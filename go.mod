@@ -4,8 +4,8 @@ go 1.21.2
 
 require (
 	firebase.google.com/go v3.13.0+incompatible
-	github.com/KyleYe/open-im-protocol v0.2.69
-	github.com/KyleYe/open-im-tools v0.1.49-alpha.55
+	github.com/KyleYe/open-im-protocol v0.3.69
+	github.com/KyleYe/open-im-tools v0.2.49-alpha.55
 	github.com/dtm-labs/rockscache v0.1.1
 	github.com/gin-gonic/gin v1.9.1
 	github.com/go-playground/validator/v10 v10.18.0

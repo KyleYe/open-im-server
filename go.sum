@@ -18,10 +18,10 @@ firebase.google.com/go v3.13.0+incompatible/go.mod h1:xlah6XbEyW6tbfSklcfe5FHJIw
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/IBM/sarama v1.43.0 h1:YFFDn8mMI2QL0wOrG0J2sFoVIAFl7hS9JQi2YZsXtJc=
 github.com/IBM/sarama v1.43.0/go.mod h1:zlE6HEbC/SMQ9mhEYaF7nNLYOUyrs0obySKCckWP9BM=
-github.com/KyleYe/open-im-protocol v0.2.69 h1:YyCjj9jv0nopZTnXFxkSMBbFUKP1IzztUwcu2DyuGmE=
-github.com/KyleYe/open-im-protocol v0.2.69/go.mod h1:B2ksbz7z5FXoloodRrJT1wmzeJbOlnI/c7rxF1DhgWQ=
-github.com/KyleYe/open-im-tools v0.1.49-alpha.55 h1:qA9tfahaZBroF5eUCm6xKl4nPbyjHuEIcRtgACY0Ad4=
-github.com/KyleYe/open-im-tools v0.1.49-alpha.55/go.mod h1:ZBbf6UIGRJ3J5jEy2wwUoMkySFRAAobgLjGSvOS+6ZQ=
+github.com/KyleYe/open-im-protocol v0.3.69 h1:6bRS4F8fkfVihPtfqDbjSmT7tnVCY2QGgPJlaTE1lCM=
+github.com/KyleYe/open-im-protocol v0.3.69/go.mod h1:B2ksbz7z5FXoloodRrJT1wmzeJbOlnI/c7rxF1DhgWQ=
+github.com/KyleYe/open-im-tools v0.2.49-alpha.55 h1:SmkcikLsMaQ2pTainN/xFs8ELGOlrWYoYdw+pvvhDqA=
+github.com/KyleYe/open-im-tools v0.2.49-alpha.55/go.mod h1:CtkFsFm9nBDED6jKiOI5kCyS3DDpHcc3Whn9H0SXWI4=
 github.com/QcloudApi/qcloud_sign_golang v0.0.0-20141224014652-e4130a326409/go.mod h1:1pk82RBxDY/JZnPQrtqHlUFfCctgdorsd9M06fMynOM=
 github.com/aliyun/aliyun-oss-go-sdk v3.0.2+incompatible h1:8psS8a+wKfiLt1iVDX79F7Y6wUM49Lcha2FMXt4UM8g=
 github.com/aliyun/aliyun-oss-go-sdk v3.0.2+incompatible/go.mod h1:T/Aws4fEfogEE9v+HPhhw+CntffsBHJ8nXQCwKr0/g8=
